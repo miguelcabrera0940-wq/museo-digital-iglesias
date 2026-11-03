@@ -1,0 +1,396 @@
+{
+  "modo": "vista_previa_sin_conexion",
+  "huella_sha256": "3641ac226e7322ef42a02987e279b56277c716b7a9c69e0ff2d11a216b2e3477",
+  "materiales": 8,
+  "documentos": 8,
+  "paginas": 32,
+  "imagenes": [
+    "/imagenes/catedral-exterior.jpg",
+    "/imagenes/catedral-interior.jpg",
+    "/imagenes/tercera-orden-exterior.jpg",
+    "/imagenes/tercera-orden-interior.jpg",
+    "/imagenes/santa-lucia-exterior.jpg",
+    "/imagenes/santa-lucia-interior.jpg",
+    "/imagenes/santa-ana-exterior.jpg",
+    "/imagenes/catedral-campeche-exterior.jpg",
+    "/imagenes/catedral-campeche-interior.jpg",
+    "/imagenes/dulce-nombre-jesus-exterior.jpg",
+    "/imagenes/catedral-puebla-exterior.jpg",
+    "/imagenes/catedral-puebla-interior.jpg",
+    "/imagenes/la-compania-exterior.jpg",
+    "/imagenes/la-compania-interior.jpg"
+  ],
+  "cuadernos": [
+    {
+      "slug_iglesia": "catedral",
+      "tipo": "documento",
+      "categoria_id": "libros-documentos",
+      "titulo": "Conoce la Catedral de San Ildefonso",
+      "descripcion_publica": "Cuaderno informativo sobre la historia, la arquitectura y el patrimonio documentado de Catedral de San Ildefonso. Texto editorial propio basado en fuentes públicas; no es un libro histórico original.",
+      "imagen_publica": "/imagenes/catedral-exterior.jpg",
+      "fuente": "Cuaderno informativo con texto propio. Fuentes y créditos de imágenes en su última página.",
+      "es_ejemplo": false,
+      "clase_contenido": "cuaderno_informativo",
+      "paginas": [
+        {
+          "numero": 1,
+          "texto": "Presentación\n\nConsiderada la catedral más antigua de México y la primera construida en la América continental. Es la sede de la arquidiócesis de Yucatán y se levanta junto a la Plaza Grande de Mérida.\n\nUbicación: Calle 60 (frente a la Plaza Grande), Centro, 97000 Mérida, Yucatán, México.\n\nCuaderno informativo preparado por este museo digital con información pública. Es un texto editorial propio: no es un libro histórico original, ni una transcripción, ni un documento de la parroquia.",
+          "imagen_url": "/imagenes/catedral-exterior.jpg"
+        },
+        {
+          "numero": 2,
+          "texto": "Historia\n\nMérida se fundó en 1542 sobre la antigua ciudad maya de T'Hó. El rey Felipe II mandó edificar la catedral, con autorización del papa Pío IV. Las obras comenzaron en 1562 sobre una primitiva capilla de San José: las encargó Pedro de Aulestia y las completaron Juan Miguel de Agüero y Gregorio de la Torre; el edificio se terminó en 1598.\n\nSu fachada es sobria, de estilo renacentista, con la Puerta del Perdón y, más arriba, el escudo de piedra con la inscripción de Felipe III fechada en 1599. Tiene tres naves; en el altar mayor destaca el Cristo de la Unidad, obra del artista español Lapayese del Río.\n\nEn septiembre de 1915, con la entrada de las fuerzas revolucionarias, la catedral fue saqueada y se perdieron retablos barrocos, el tesoro catedralicio y un órgano alemán de 1902. En 1916 se demolieron las capillas de San José y del Rosario. En 1982 el Centro Histórico de Mérida fue declarado patrimonio de la nación.",
+          "imagen_url": null
+        },
+        {
+          "numero": 3,
+          "texto": "Arquitectura y patrimonio\n\nSu fachada es sobria y de estilo renacentista. La Puerta del Perdón tiene un arco de medio punto flanqueado por columnas toscanas, con imágenes de san Pedro y san Pablo; encima hay un frontón triangular y la ventana del coro. Arriba se conserva el escudo de piedra con la corona, el toisón de oro y la inscripción de Felipe III fechada en 1599. Tiene dos torres de dos cuerpos y está construida en cantera.\n\nPor dentro hay tres naves: la central con bóveda de casetones y las laterales con lacería gótica. El interior es austero y conserva algunos retablos barrocos.\n\nEn el altar mayor está el Cristo de la Unidad, un crucifijo de madera de Lapayese del Río hecho para sustituir un retablo destruido en 1915. También es muy venerada la imagen del Cristo de las Ampollas. Junto a la catedral, el Pasaje de la Revolución ocupa el lugar de las capillas de San José y del Rosario, demolidas en 1916.\n\nEl edificio es monumento histórico y, en 1982, el Centro Histórico de Mérida fue declarado patrimonio de la nación.",
+          "imagen_url": "/imagenes/catedral-interior.jpg"
+        },
+        {
+          "numero": 4,
+          "texto": "Fuentes y créditos de imágenes\n\nTexto redactado a partir de Wikipedia en español, «Catedral de San Ildefonso (Mérida)» (consultado el 25 de octubre de 2026); código postal según el registro del INAH. Fotografías de Wikimedia Commons: exterior, Gideonximi (CC BY 4.0); interior, Anagoria (CC BY 3.0).\n\nLos créditos completos de las fotografías, con enlaces y licencias, están en la página «Créditos de las fotografías» (/imagenes/creditos.html). Los datos de este cuaderno son informativos y deben verificarse con la parroquia o una fuente especializada antes de citarse.",
+          "imagen_url": null
+        }
+      ],
+      "id": "ab6d29dd-a307-88f6-ab6b-dcf7d4f18c43"
+    },
+    {
+      "slug_iglesia": "tercera-orden",
+      "tipo": "documento",
+      "categoria_id": "libros-documentos",
+      "titulo": "Conoce la Iglesia de Jesús o Tercera Orden",
+      "descripcion_publica": "Cuaderno informativo sobre la historia, la arquitectura y el patrimonio documentado de Iglesia de Jesús o Tercera Orden. Texto editorial propio basado en fuentes públicas; no es un libro histórico original.",
+      "imagen_publica": "/imagenes/tercera-orden-exterior.jpg",
+      "fuente": "Cuaderno informativo con texto propio. Fuentes y créditos de imágenes en su última página.",
+      "es_ejemplo": false,
+      "clase_contenido": "cuaderno_informativo",
+      "paginas": [
+        {
+          "numero": 1,
+          "texto": "Presentación\n\nAntigua iglesia jesuita del siglo XVII, conocida como «El Jesús». Tomó su nombre actual de los franciscanos de la Tercera Orden, que la recibieron tras la expulsión de los jesuitas en 1767.\n\nUbicación: Calle 60 por 57 y 59, Centro, Mérida, Yucatán, México.\n\nCuaderno informativo preparado por este museo digital con información pública. Es un texto editorial propio: no es un libro histórico original, ni una transcripción, ni un documento de la parroquia.",
+          "imagen_url": "/imagenes/tercera-orden-exterior.jpg"
+        },
+        {
+          "numero": 2,
+          "texto": "Historia\n\nEl convento y la iglesia jesuitas de San Francisco Javier se inauguraron en 1618 como anexo del colegio que la Compañía de Jesús fundó en Mérida. En 1767, con la expulsión de los jesuitas, el colegio y la universidad cerraron y el templo pasó a los franciscanos de la Tercera Orden, de quienes tomó el nombre con que hoy se conoce.\n\nMás tarde se derribó parte del antiguo edificio jesuita y se abrió una calle a través de la manzana; hacia 1900 se demolieron otras construcciones contiguas para levantar el Teatro Peón Contreras. En 1917 el templo fue sede del Poder Legislativo del estado y en 1920 volvió al culto.\n\nEs una construcción de mampostería de estilo barroco, con influencia indígena en los acabados de piedra, de una sola nave con planta en cruz y dos torres laterales. En el muro que da a la calle 59 se conserva un vestigio maya.",
+          "imagen_url": null
+        },
+        {
+          "numero": 3,
+          "texto": "Arquitectura y patrimonio\n\nEs una construcción de mampostería de estilo barroco, con influencia indígena en los acabados de piedra. Tiene una sola nave con planta en cruz y dos torres laterales.\n\nEn el muro que da a la calle 59 se conserva un vestigio maya.\n\nEl templo formó parte del conjunto jesuita de San Francisco Javier, del que se derribó una parte para abrir una calle; hacia 1900 se demolieron construcciones contiguas para levantar el Teatro Peón Contreras.\n\nEn las fuentes consultadas no pudimos confirmar datos sobre retablos, imágenes u otros objetos del interior, por lo que no se incluyen.",
+          "imagen_url": "/imagenes/tercera-orden-interior.jpg"
+        },
+        {
+          "numero": 4,
+          "texto": "Fuentes y créditos de imágenes\n\nTexto redactado a partir del registro «Iglesia de Jesús, 3er Orden, Mérida» del Repositorio Institucional del INAH (consulta parcial) y de Yucatán Today, «The Church of Jesus the Third Order» (consultado el 25 de octubre de 2026). Las fechas de llegada de los franciscanos no están precisadas. Fotografías de Wikimedia Commons: exterior, Inri (CC0); interior, Mario Morales Rubí (CC BY-SA 4.0).\n\nLos créditos completos de las fotografías, con enlaces y licencias, están en la página «Créditos de las fotografías» (/imagenes/creditos.html). Los datos de este cuaderno son informativos y deben verificarse con la parroquia o una fuente especializada antes de citarse.",
+          "imagen_url": null
+        }
+      ],
+      "id": "bb1abf21-d1ad-8d3a-815f-4c67eaf5eea7"
+    },
+    {
+      "slug_iglesia": "santa-lucia",
+      "tipo": "documento",
+      "categoria_id": "libros-documentos",
+      "titulo": "Conoce la Iglesia de Santa Lucía",
+      "descripcion_publica": "Cuaderno informativo sobre la historia, la arquitectura y el patrimonio documentado de Iglesia de Santa Lucía. Texto editorial propio basado en fuentes públicas; no es un libro histórico original.",
+      "imagen_publica": "/imagenes/santa-lucia-exterior.jpg",
+      "fuente": "Cuaderno informativo con texto propio. Fuentes y créditos de imágenes en su última página.",
+      "es_ejemplo": false,
+      "clase_contenido": "cuaderno_informativo",
+      "paginas": [
+        {
+          "numero": 1,
+          "texto": "Presentación\n\nPequeña iglesia colonial del siglo XVI situada frente al Parque de Santa Lucía, una de las plazas más antiguas de Mérida, conocida por sus serenatas yucatecas de los jueves.\n\nUbicación: Calle 60 por 55 (frente al Parque de Santa Lucía), Centro, Mérida, Yucatán, México.\n\nCuaderno informativo preparado por este museo digital con información pública. Es un texto editorial propio: no es un libro histórico original, ni una transcripción, ni un documento de la parroquia.",
+          "imagen_url": "/imagenes/santa-lucia-exterior.jpg"
+        },
+        {
+          "numero": 2,
+          "texto": "Historia\n\nEl espacio donde hoy está el parque de Santa Lucía se reservó en el trazo inicial de la ciudad, en 1542. Según la placa histórica del lugar, el templo fue levantado en 1575 por el encomendero Pedro García; el costado sur del atrio sirvió de cementerio hasta 1821. La iglesia se fue ampliando hasta alcanzar su tamaño actual hacia 1760. Hoy conserva una portada rectangular enmarcada en cantera, un vitral y una espadaña.\n\nEn 1804 el gobernador Benito Pérez Valdelomar convirtió en plaza un terreno que se había vuelto basurero. En el siglo XX el parque se dedicó a los músicos y compositores de la trova yucateca y, desde 1965, cada jueves se celebra ahí una serenata.",
+          "imagen_url": null
+        },
+        {
+          "numero": 3,
+          "texto": "Arquitectura y patrimonio\n\nLa iglesia es pequeña y fue ampliándose hasta alcanzar su tamaño actual hacia 1760. Conserva una portada rectangular enmarcada en cantera, un vitral y una espadaña.\n\nFrente al templo está el Parque de Santa Lucía, uno de los espacios más antiguos de la ciudad, reservado en el trazo de 1542. En 1804 un terreno que se había vuelto basurero se convirtió en plaza.\n\nEn el siglo XX el parque se dedicó a los músicos y compositores de la trova yucateca. Desde 1965 se celebra ahí una serenata cada jueves.\n\nNo se encontraron datos confirmados sobre retablos u objetos del interior, por lo que no se incluyen.",
+          "imagen_url": "/imagenes/santa-lucia-interior.jpg"
+        },
+        {
+          "numero": 4,
+          "texto": "Fuentes y créditos de imágenes\n\nTexto redactado a partir de Wikipedia en español, «Parque de Santa Lucía», y de la placa histórica del lugar transcrita en el Historical Marker Database (consultado el 25 de octubre de 2026). Las fechas de construcción provienen de esas fuentes divulgativas y no se han contrastado con un estudio académico. Fotografías de Wikimedia Commons: exterior, Sárvol (CC BY-SA 4.0); interior, Rubén Naíl (CC BY-SA 2.0).\n\nLos créditos completos de las fotografías, con enlaces y licencias, están en la página «Créditos de las fotografías» (/imagenes/creditos.html). Los datos de este cuaderno son informativos y deben verificarse con la parroquia o una fuente especializada antes de citarse.",
+          "imagen_url": null
+        }
+      ],
+      "id": "7f4ebb23-f592-8689-90b2-dae29f4ba81b"
+    },
+    {
+      "slug_iglesia": "santa-ana",
+      "tipo": "documento",
+      "categoria_id": "libros-documentos",
+      "titulo": "Conoce la Iglesia de Santa Ana",
+      "descripcion_publica": "Cuaderno informativo sobre la historia, la arquitectura y el patrimonio documentado de Iglesia de Santa Ana. Texto editorial propio basado en fuentes públicas; no es un libro histórico original.",
+      "imagen_publica": "/imagenes/santa-ana-exterior.jpg",
+      "fuente": "Cuaderno informativo con texto propio. Fuentes y créditos de imágenes en su última página.",
+      "es_ejemplo": false,
+      "clase_contenido": "cuaderno_informativo",
+      "paginas": [
+        {
+          "numero": 1,
+          "texto": "Presentación\n\nTemplo del siglo XVIII en el barrio de Santa Ana, con fachada sencilla y dos torres rematadas en forma de pirámide. Se presume levantado sobre un basamento maya.\n\nUbicación: Calle 60 por 47 (Parque de Santa Ana), Centro, Mérida, Yucatán, México.\n\nCuaderno informativo preparado por este museo digital con información pública. Es un texto editorial propio: no es un libro histórico original, ni una transcripción, ni un documento de la parroquia.",
+          "imagen_url": "/imagenes/santa-ana-exterior.jpg"
+        },
+        {
+          "numero": 2,
+          "texto": "Historia\n\nEn 1726 el gobernador Antonio de Figueroa y Silva ordenó abrir una calle recta desde el palacio episcopal, junto a la catedral, hacia el norte, lo que integró al centro de Mérida el barrio de Santa Ana, poblado entonces por artesanos y jornaleros. El mismo gobernador mandó erigir el templo en el sitio de una antigua capilla abierta construida un siglo antes; se presume que sobre un basamento precolombino maya.\n\nLa obra se concluyó en 1733. Figueroa y Silva murió poco antes de verla terminada y, según una placa de piedra en la fachada, sus restos reposan en el templo. La fachada es sencilla y sus dos torres terminan en pirámide.",
+          "imagen_url": null
+        },
+        {
+          "numero": 3,
+          "texto": "Arquitectura y patrimonio\n\nLa fachada es sencilla y sus dos torres terminan en forma de pirámide. Se presume que el templo se levantó sobre un basamento maya, dato que debe contrastarse con un estudio especializado.\n\nUna placa de piedra en la fachada indica que ahí reposan los restos del gobernador Antonio de Figueroa y Silva, quien ordenó la obra.\n\nEl templo da identidad al barrio de Santa Ana, que en el siglo XVIII se integró al centro de Mérida y estaba poblado por artesanos y jornaleros.\n\nNo se encontraron datos confirmados sobre retablos u objetos del interior, por lo que no se incluyen.",
+          "imagen_url": "/imagenes/santa-ana-exterior.jpg"
+        },
+        {
+          "numero": 4,
+          "texto": "Fuentes y créditos de imágenes\n\nTexto redactado a partir de Wikipedia en español, «Barrio de Santa Ana (Mérida, México)» (consultado el 25 de octubre de 2026). Es una sola fuente divulgativa: las fechas anteriores al siglo XVIII y la presunción de un basamento maya deben contrastarse con un estudio especializado. Fotografía exterior de Wikimedia Commons: Sharon Hahn Darlin (CC BY 2.0). Aún no hay fotografía interior con licencia libre.\n\nLos créditos completos de las fotografías, con enlaces y licencias, están en la página «Créditos de las fotografías» (/imagenes/creditos.html). Los datos de este cuaderno son informativos y deben verificarse con la parroquia o una fuente especializada antes de citarse.",
+          "imagen_url": null
+        }
+      ],
+      "id": "3ff400d9-dc31-8924-a587-aa3b07bce248"
+    },
+    {
+      "slug_iglesia": "catedral-campeche",
+      "tipo": "documento",
+      "categoria_id": "libros-documentos",
+      "titulo": "Conoce la Catedral de la Purísima Concepción",
+      "descripcion_publica": "Cuaderno informativo sobre la historia, la arquitectura y el patrimonio documentado de Catedral de Nuestra Señora de la Purísima Concepción. Texto editorial propio basado en fuentes públicas; no es un libro histórico original.",
+      "imagen_publica": "/imagenes/catedral-campeche-exterior.jpg",
+      "fuente": "Cuaderno informativo con texto propio. Fuentes y créditos de imágenes en su última página.",
+      "es_ejemplo": false,
+      "clase_contenido": "cuaderno_informativo",
+      "paginas": [
+        {
+          "numero": 1,
+          "texto": "Presentación\n\nCatedral de piedra clara frente a la Plaza de la Independencia, en el Centro Histórico de Campeche. Tiene dos torres, una portada de dos cuerpos y una sola nave en forma de cruz.\n\nUbicación: Calle 10 esquina con Calle 55, frente a la Plaza de la Independencia, Centro Histórico, 24000 San Francisco de Campeche, Campeche, México.\n\nCuaderno informativo preparado por este museo digital con información pública. Es un texto editorial propio: no es un libro histórico original, ni una transcripción, ni un documento de la parroquia.",
+          "imagen_url": "/imagenes/catedral-campeche-exterior.jpg"
+        },
+        {
+          "numero": 2,
+          "texto": "Historia\n\nEn 1540 Francisco de Montejo, el Mozo, mandó levantar en este lugar una pequeña iglesia de cal y canto con techo de palma. Se amplió hacia 1650 y de nuevo a mediados del siglo XVIII; las obras de esa etapa terminaron en 1760. Una de las torres, la llamada «La Española», tuvo el primer reloj público de la ciudad; la otra, «La Campechana», se construyó hasta 1849-1850.\n\nEl templo fue consagrado en 1833, cuando aún era parroquia. En 1895 se creó la diócesis de Campeche y la iglesia pasó a ser catedral. Por dentro conserva un altar mayor piramidal con un tabernáculo de plata del siglo XVIII y pisos de mármol con azulejos poblanos en el presbiterio.",
+          "imagen_url": null
+        },
+        {
+          "numero": 3,
+          "texto": "Arquitectura y patrimonio\n\nLa portada tiene dos cuerpos. La Puerta Mayor está flanqueada por esculturas de san Pedro y san Pablo; en la ventana del coro, de arco trilobulado, hay una Virgen de la Concepción, y en los nichos laterales están san Francisco de Asís y santo Domingo de Guzmán. Las dos torres, de tres cuerpos, terminan en cupulillas con cruz de piedra.\n\nLa nave es única, en forma de cruz y dividida en seis tramos por arcos de cantera; el crucero lleva una cúpula octogonal. El altar mayor tiene forma piramidal y un tabernáculo de plata del siglo XVIII, donado en 1821. En el presbiterio hay doce sitiales para los apóstoles, que se usan en Semana Santa. Los pisos son de mármol blanco y negro y el presbiterio tiene azulejos de Puebla.\n\nEn el patio hay una capilla de Jesús Nazareno que hoy funciona como museo de arte sacro. La catedral está catalogada como monumento histórico y de ella sale, el Viernes Santo, la procesión del Santo Entierro.",
+          "imagen_url": "/imagenes/catedral-campeche-interior.jpg"
+        },
+        {
+          "numero": 4,
+          "texto": "Fuentes y créditos de imágenes\n\nTexto y dirección redactados a partir de Wikipedia en español, «Catedral de Campeche» (consultado el 31 de octubre de 2026). Es una sola fuente divulgativa: fechas y detalles de las ampliaciones deben contrastarse con un estudio especializado. Fotografías de Wikimedia Commons: exterior, Cass D.arq (CC BY 4.0); interior, Dge (CC BY-SA 4.0).\n\nLos créditos completos de las fotografías, con enlaces y licencias, están en la página «Créditos de las fotografías» (/imagenes/creditos.html). Los datos de este cuaderno son informativos y deben verificarse con la parroquia o una fuente especializada antes de citarse.",
+          "imagen_url": null
+        }
+      ],
+      "id": "a3208f59-e638-8f74-bfc5-3373e4364eeb"
+    },
+    {
+      "slug_iglesia": "dulce-nombre-jesus",
+      "tipo": "documento",
+      "categoria_id": "libros-documentos",
+      "titulo": "Conoce el Templo del Dulce Nombre de Jesús",
+      "descripcion_publica": "Cuaderno informativo sobre la historia, la arquitectura y el patrimonio documentado de Templo del Dulce Nombre de Jesús. Texto editorial propio basado en fuentes públicas; no es un libro histórico original.",
+      "imagen_publica": "/imagenes/dulce-nombre-jesus-exterior.jpg",
+      "fuente": "Cuaderno informativo con texto propio. Fuentes y créditos de imágenes en su última página.",
+      "es_ejemplo": false,
+      "clase_contenido": "cuaderno_informativo",
+      "paginas": [
+        {
+          "numero": 1,
+          "texto": "Presentación\n\nTemplo de fachada amarilla con grandes contrafuertes y una espadaña con campanas, en el Centro Histórico de Campeche. Se le conoce como «la iglesia amarilla».\n\nUbicación: Calle 12 (esquina con Calle 55), Centro Histórico, San Francisco de Campeche, Campeche, México.\n\nCuaderno informativo preparado por este museo digital con información pública. Es un texto editorial propio: no es un libro histórico original, ni una transcripción, ni un documento de la parroquia.",
+          "imagen_url": "/imagenes/dulce-nombre-jesus-exterior.jpg"
+        },
+        {
+          "numero": 2,
+          "texto": "Historia\n\nSus orígenes no están bien precisados y las fuentes no coinciden: unas hablan de una capilla abierta del siglo XVI para la población indígena, esclava y mulata del lugar, y otras de una iglesia fundada en el siglo XVII. Un artículo del INAH recoge que, en 1639, ya se habría dispuesto un espacio propio para las personas africanas y sus descendientes.\n\nSegún la misma fuente, el templo funcionó como parroquia principal hasta 1705, cuando se abrió otra sede. Sus contrafuertes, además de sostener el muro, le dan un aspecto de fortaleza muy fotografiado.",
+          "imagen_url": null
+        },
+        {
+          "numero": 3,
+          "texto": "Arquitectura y patrimonio\n\nEl rasgo más reconocible del templo es su fachada pintada de amarillo, con grandes contrafuertes y una espadaña con campanas. Por su color se le conoce como «la iglesia amarilla» y es uno de los edificios más fotografiados del centro de Campeche.\n\nLos contrafuertes sostienen el muro y dan al conjunto un aspecto de fortaleza.\n\nEn las fuentes consultadas no pudimos confirmar fechas de obra, autores ni objetos del interior, por lo que no se incluyen. Esa información queda por confirmar con una fuente especializada o con la parroquia.",
+          "imagen_url": "/imagenes/dulce-nombre-jesus-exterior.jpg"
+        },
+        {
+          "numero": 4,
+          "texto": "Fuentes y créditos de imágenes\n\nTexto redactado a partir de un artículo de la revista Glifos del INAH y de una placa histórica citada en el Historical Marker Database, ambos vistos solo en extractos de búsqueda (consulta parcial), y de reseñas turísticas de PorEsto! (6 de agosto de 2024) y Ryo (consultadas el 31 de octubre de 2026). Fechas y origen sin confirmar. La calle y la esquina provienen de listados turísticos sin número exterior. Fotografía exterior de Wikimedia Commons: Elelicht (CC BY-SA 3.0). Aún no hay fotografía interior con licencia libre.\n\nLos créditos completos de las fotografías, con enlaces y licencias, están en la página «Créditos de las fotografías» (/imagenes/creditos.html). Los datos de este cuaderno son informativos y deben verificarse con la parroquia o una fuente especializada antes de citarse.",
+          "imagen_url": null
+        }
+      ],
+      "id": "2ad4a92c-b1cf-881e-ad55-e1d5ba1ffeb8"
+    },
+    {
+      "slug_iglesia": "catedral-puebla",
+      "tipo": "documento",
+      "categoria_id": "libros-documentos",
+      "titulo": "Conoce la Catedral de Puebla",
+      "descripcion_publica": "Cuaderno informativo sobre la historia, la arquitectura y el patrimonio documentado de Catedral de Puebla. Texto editorial propio basado en fuentes públicas; no es un libro histórico original.",
+      "imagen_publica": "/imagenes/catedral-puebla-exterior.jpg",
+      "fuente": "Cuaderno informativo con texto propio. Fuentes y créditos de imágenes en su última página.",
+      "es_ejemplo": false,
+      "clase_contenido": "cuaderno_informativo",
+      "paginas": [
+        {
+          "numero": 1,
+          "texto": "Presentación\n\nCatedral de cantera gris con dos grandes torres, tres portadas y cinco naves, junto al Zócalo en el Centro Histórico de Puebla.\n\nUbicación: Calle 16 de Septiembre, entre 3 y 5 Oriente, junto al Zócalo, Centro Histórico, 72000 Puebla, Puebla, México.\n\nCuaderno informativo preparado por este museo digital con información pública. Es un texto editorial propio: no es un libro histórico original, ni una transcripción, ni un documento de la parroquia.",
+          "imagen_url": "/imagenes/catedral-puebla-exterior.jpg"
+        },
+        {
+          "numero": 2,
+          "texto": "Historia\n\nSu primera piedra se colocó el 18 de noviembre de 1575. Las obras se suspendieron a principios del siglo XVII y se reanudaron en 1640, con el obispo Juan de Palafox y Mendoza. El templo se consagró el 18 de abril de 1649, aunque todavía no estaba terminado. El proyecto inicial fue de Francisco Becerra; después Juan Gómez de Trasmonte lo reformó con un aspecto más sobrio.\n\nLa torre norte se terminó en 1678 y es la única con campanas; la torre sur se concluyó en 1731. El ciprés del altar mayor, de estilo neoclásico, se bendijo en 1819. Su fachada y su planta se describen como herrerianas, de inspiración renacentista, con elementos barrocos.",
+          "imagen_url": null
+        },
+        {
+          "numero": 3,
+          "texto": "Arquitectura y patrimonio\n\nSegún la fuente consultada, el edificio mide cerca de 98 metros de largo por 51 de ancho y tiene cinco naves con columnas dóricas. La cúpula principal se eleva unos 43 metros desde el piso hasta la linternilla, y la luz entra por más de cien ventanas.\n\nTiene tres portadas: la central, llamada del Perdón, solo se abre en ocasiones especiales; la norte, de San Cristóbal, da al Zócalo; y la sur es más sencilla. La torre norte es la única con campanas, diez en total.\n\nEl ciprés del altar mayor es neoclásico, obra de Manuel Tolsá y José Manzo. La pintura de la cúpula del Altar de los Reyes se atribuye a Cristóbal de Villalpando (1688). El órgano «Internacional», con 3376 tubos, se inauguró en 1973.",
+          "imagen_url": "/imagenes/catedral-puebla-interior.jpg"
+        },
+        {
+          "numero": 4,
+          "texto": "Fuentes y créditos de imágenes\n\nTexto redactado a partir de Wikipedia en español, «Catedral de Puebla» (consultado el 31 de octubre de 2026); la propia fuente da fechas contradictorias sobre la suspensión de las obras y la altura de las torres, por eso no se citan. La dirección sigue un listado turístico y la ubicación junto al Zócalo, Wikipedia. Fotografías de Wikimedia Commons: exterior, Juan Carlos Fonseca Mata (CC BY-SA 4.0); interior, Ulisesmorales (CC BY-SA 3.0).\n\nLos créditos completos de las fotografías, con enlaces y licencias, están en la página «Créditos de las fotografías» (/imagenes/creditos.html). Los datos de este cuaderno son informativos y deben verificarse con la parroquia o una fuente especializada antes de citarse.",
+          "imagen_url": null
+        }
+      ],
+      "id": "dd6f416e-cbe9-86ca-8f4d-f1495374ebce"
+    },
+    {
+      "slug_iglesia": "la-compania",
+      "tipo": "documento",
+      "categoria_id": "libros-documentos",
+      "titulo": "Conoce el Templo del Espíritu Santo (La Compañía)",
+      "descripcion_publica": "Cuaderno informativo sobre la historia, la arquitectura y el patrimonio documentado de Templo del Espíritu Santo (La Compañía). Texto editorial propio basado en fuentes públicas; no es un libro histórico original.",
+      "imagen_publica": "/imagenes/la-compania-exterior.jpg",
+      "fuente": "Cuaderno informativo con texto propio. Fuentes y créditos de imágenes en su última página.",
+      "es_ejemplo": false,
+      "clase_contenido": "cuaderno_informativo",
+      "paginas": [
+        {
+          "numero": 1,
+          "texto": "Presentación\n\nTemplo barroco de fachada blanca con yeserías y dos torres, junto al edificio Carolino en el Centro Histórico de Puebla. Su nombre oficial es Templo del Espíritu Santo.\n\nUbicación: Calle 4 Sur, esquina con Avenida Juan de Palafox y Mendoza, Centro Histórico, Puebla, Puebla, México.\n\nCuaderno informativo preparado por este museo digital con información pública. Es un texto editorial propio: no es un libro histórico original, ni una transcripción, ni un documento de la parroquia.",
+          "imagen_url": "/imagenes/la-compania-exterior.jpg"
+        },
+        {
+          "numero": 2,
+          "texto": "Historia\n\nLos jesuitas llegaron a Puebla en 1572 y en 1583 empezaron este templo, que se consagró en 1600. Entre 1746 y 1767 hubo una segunda etapa de obras, dirigida por José Miguel de Santa María; el templo se bendijo en 1767, pocos meses antes de la expulsión de la Compañía de Jesús. Las torres se terminaron a principios del siglo XIX.\n\nLos jesuitas volvieron en 1888 y en 1978 el templo pasó al arzobispado; hoy es parroquia de la Arquidiócesis de Puebla. En la antesala de la sacristía hay una lápida que marca el sepulcro de Catarina de San Juan, conocida como «la China Poblana»; la relación de su vestimenta con el traje que lleva ese nombre es discutida.",
+          "imagen_url": null
+        },
+        {
+          "numero": 3,
+          "texto": "Arquitectura y patrimonio\n\nEs un templo barroco de tres naves, con un pórtico de cinco arcos cerrados con herrería de forja poblana; el arco central es trilobulado. La fachada y las torres llevan yeserías, y sobre las puertas hay monogramas MAR, IHS y Josep y el escudo de la Compañía de Jesús. El crucero está cubierto por una cúpula sobre tambor.\n\nEn el ábside hay figuras de madera de los doce apóstoles y, en el altar, la pintura «El Espíritu Santo Paráclito» de Gonzalo Carrasco. En la sacristía se conservan lienzos de finales del siglo XVII de José Rodríguez Carnero. El retablo actual se diseñó en 1927 por Luis G. Olvera.\n\nEn la antesala de la sacristía una lápida señala el sepulcro de Catarina de San Juan. El edificio es monumento histórico.",
+          "imagen_url": "/imagenes/la-compania-interior.jpg"
+        },
+        {
+          "numero": 4,
+          "texto": "Fuentes y créditos de imágenes\n\nTexto redactado a partir de Wikipedia en español, «Templo de la Compañía (Puebla)» (consultado el 31 de octubre de 2026). Es una sola fuente divulgativa. La calle sigue esa fuente: el número exterior no se indica porque las fuentes difieren (Wikipedia, s/n; ficha del INAH en proceso de validación, 4 Sur 102). Fotografías de Wikimedia Commons: exterior, Mercedes Álvarez Díaz (CC BY-SA 3.0); interior, Burkhard Mücke (CC BY-SA 4.0).\n\nLos créditos completos de las fotografías, con enlaces y licencias, están en la página «Créditos de las fotografías» (/imagenes/creditos.html). Los datos de este cuaderno son informativos y deben verificarse con la parroquia o una fuente especializada antes de citarse.",
+          "imagen_url": null
+        }
+      ],
+      "id": "5e49ae62-37cd-8cce-b7e8-9379ca7e5330"
+    }
+  ],
+  "semillas_candidatas": [
+    {
+      "slug": "catedral",
+      "id": "20000000-0000-4000-8000-000000000000",
+      "titulo": "Crónica ficticia de la parroquia",
+      "tipo": "libro"
+    },
+    {
+      "slug": "catedral",
+      "id": "20000000-0000-4000-8000-000000000001",
+      "titulo": "Registro de ejemplo de festividades",
+      "tipo": "libro"
+    },
+    {
+      "slug": "catedral",
+      "id": "20000000-0000-4000-8000-000000000002",
+      "titulo": "Carta ficticia de fundación",
+      "tipo": "documento"
+    },
+    {
+      "slug": "catedral",
+      "id": "20000000-0000-4000-8000-000000000004",
+      "titulo": "Álbum de muestra aún sin digitalizar",
+      "tipo": "libro"
+    },
+    {
+      "slug": "tercera-orden",
+      "id": "20000000-0000-4000-8000-000000000100",
+      "titulo": "Crónica ficticia de la parroquia",
+      "tipo": "libro"
+    },
+    {
+      "slug": "tercera-orden",
+      "id": "20000000-0000-4000-8000-000000000101",
+      "titulo": "Registro de ejemplo de festividades",
+      "tipo": "libro"
+    },
+    {
+      "slug": "tercera-orden",
+      "id": "20000000-0000-4000-8000-000000000102",
+      "titulo": "Carta ficticia de fundación",
+      "tipo": "documento"
+    },
+    {
+      "slug": "tercera-orden",
+      "id": "20000000-0000-4000-8000-000000000104",
+      "titulo": "Álbum de muestra aún sin digitalizar",
+      "tipo": "libro"
+    },
+    {
+      "slug": "santa-lucia",
+      "id": "20000000-0000-4000-8000-000000000200",
+      "titulo": "Crónica ficticia de la parroquia",
+      "tipo": "libro"
+    },
+    {
+      "slug": "santa-lucia",
+      "id": "20000000-0000-4000-8000-000000000201",
+      "titulo": "Registro de ejemplo de festividades",
+      "tipo": "libro"
+    },
+    {
+      "slug": "santa-lucia",
+      "id": "20000000-0000-4000-8000-000000000202",
+      "titulo": "Carta ficticia de fundación",
+      "tipo": "documento"
+    },
+    {
+      "slug": "santa-lucia",
+      "id": "20000000-0000-4000-8000-000000000204",
+      "titulo": "Álbum de muestra aún sin digitalizar",
+      "tipo": "libro"
+    },
+    {
+      "slug": "santa-ana",
+      "id": "20000000-0000-4000-8000-000000000300",
+      "titulo": "Crónica ficticia de la parroquia",
+      "tipo": "libro"
+    },
+    {
+      "slug": "santa-ana",
+      "id": "20000000-0000-4000-8000-000000000301",
+      "titulo": "Registro de ejemplo de festividades",
+      "tipo": "libro"
+    },
+    {
+      "slug": "santa-ana",
+      "id": "20000000-0000-4000-8000-000000000302",
+      "titulo": "Carta ficticia de fundación",
+      "tipo": "documento"
+    },
+    {
+      "slug": "santa-ana",
+      "id": "20000000-0000-4000-8000-000000000304",
+      "titulo": "Álbum de muestra aún sin digitalizar",
+      "tipo": "libro"
+    }
+  ],
+  "retirada": "Solo filas de semillas conocidas aún públicas, ficticias y sin cambios; conserva visibilidad y contenido."
+}

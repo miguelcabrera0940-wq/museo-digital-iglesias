@@ -1,0 +1,32 @@
+# Secretos locales; el único ejemplo publicable contiene placeholders.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+.pgpass
+.pg_service.conf
+.npmrc
+
+# Dependencias, compilaciones y datos operativos locales.
+node_modules/
+dist/
+build/
+coverage/
+logs/
+*.log
+*.dump
+*.backup
+*.sql.gz
+.vercel/
+
+# Capturas sin revisión visual exhaustiva y herramientas de investigación locales.
+/docs/capturas/
+/trabajo-contenido/
+/ARNES_IGLESIAS_ACTUALIZADO/
+__pycache__/
+*.pyc
+.~lock.*#
+.DS_Store

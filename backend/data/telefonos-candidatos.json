@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "estado": "PREPARADO, NO CARGADO: el contrato actual no tiene dónde guardar fuente ni aviso. No publicar como teléfono confirmado.",
+  "preparados": [
+    {
+      "slug": "tercera-orden",
+      "telefono": "01 999 924 9712",
+      "telefono_estado": "externo_pendiente",
+      "aviso": "Número publicado en directorio externo; pendiente de confirmar",
+      "telefono_fuente": "Diario de Yucatán, «¿A qué hora hay misa en el centro de Mérida?», publicado 2019-01-19 (actualizado 2024-12-18), consultado 2026-10-31: https://www.yucatan.com.mx/imagen/2019/01/19/a-que-hora-hay-misa-en-el-centro-de-merida.html (bloque «Rectoría El Jesús Tercera Orden»)"
+    },
+    {
+      "slug": "santa-lucia",
+      "telefono": "01 999 923 1056",
+      "telefono_estado": "externo_pendiente",
+      "aviso": "Número publicado en directorio externo; pendiente de confirmar",
+      "telefono_fuente": "Diario de Yucatán, «¿A qué hora hay misa en el centro de Mérida?», publicado 2019-01-19 (actualizado 2024-12-18), consultado 2026-10-31: https://www.yucatan.com.mx/imagen/2019/01/19/a-que-hora-hay-misa-en-el-centro-de-merida.html (bloque «Iglesia de Santa Lucía»)"
+    },
+    {
+      "slug": "santa-ana",
+      "telefono": "01 999 928 5371",
+      "telefono_estado": "externo_pendiente",
+      "aviso": "Número publicado en directorio externo; pendiente de confirmar",
+      "telefono_fuente": "Diario de Yucatán, «¿A qué hora hay misa en el centro de Mérida?», publicado 2019-01-19 (actualizado 2024-12-18), consultado 2026-10-31: https://www.yucatan.com.mx/imagen/2019/01/19/a-que-hora-hay-misa-en-el-centro-de-merida.html (bloque «Parroquia de Santa Ana»)"
+    }
+  ],
+  "excluidos": [
+    {
+      "slug": "catedral",
+      "candidato": "01 999 255 8622",
+      "motivo": "Contradictorio: el sitio oficial de la arquidiócesis da 9247777 (oficina diocesana) y otra ficha pública da 01 924-928 61 31 para la catedral."
+    },
+    {
+      "slug": "catedral-puebla",
+      "candidato": "222 232 3803 / 222 232 2316",
+      "motivo": "Ambiguo: dos números en directorios privados sin fuente; puede ser la oficina del Sagrario y no la de la Catedral."
+    },
+    {
+      "slug": "la-compania",
+      "candidato": "222 232 2375",
+      "motivo": "Compartido: el mismo número aparece en la ficha de otra iglesia del mismo directorio."
+    },
+    {
+      "slug": "catedral-campeche",
+      "candidato": null,
+      "motivo": "Sin fuente. 891 816 0339 y 981 816 2524 son del archivo histórico diocesano."
+    },
+    {
+      "slug": "dulce-nombre-jesus",
+      "candidato": null,
+      "motivo": "Sin fuente."
+    }
+  ]
+}

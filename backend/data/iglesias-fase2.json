@@ -1,0 +1,42 @@
+[
+  {
+    "id": "00000000-0000-4000-8000-000000000005",
+    "slug": "catedral-campeche",
+    "estado": "campeche",
+    "ciudad": "San Francisco de Campeche",
+    "nombre": "Catedral de Nuestra Señora de la Purísima Concepción",
+    "latitud": 19.84619,
+    "longitud": -90.53616,
+    "fuente": "Ubicación aprobada en MEJORAS_FASE_2.md: https://mapcarta.com/W160092168"
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000006",
+    "slug": "dulce-nombre-jesus",
+    "estado": "campeche",
+    "ciudad": "San Francisco de Campeche",
+    "nombre": "Templo del Dulce Nombre de Jesús",
+    "latitud": 19.84499,
+    "longitud": -90.53574,
+    "fuente": "Ubicación aprobada en MEJORAS_FASE_2.md: https://mapcarta.com/W552205116 ; https://catalogonacionalmhi.inah.gob.mx/consulta_publica/detalle/2226"
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000007",
+    "slug": "catedral-puebla",
+    "estado": "puebla",
+    "ciudad": "Puebla de Zaragoza",
+    "nombre": "Catedral de Puebla",
+    "latitud": 19.04285,
+    "longitud": -98.19839,
+    "fuente": "Ubicación aprobada en MEJORAS_FASE_2.md: https://mapcarta.com/W1113187115"
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000008",
+    "slug": "la-compania",
+    "estado": "puebla",
+    "ciudad": "Puebla de Zaragoza",
+    "nombre": "Templo del Espíritu Santo (La Compañía)",
+    "latitud": 19.04257,
+    "longitud": -98.1954,
+    "fuente": "Punto cartográfico del edificio, no entrada validada; consultado 2026-10-30: https://mapcarta.com/W525267034 ; https://www.wikidata.org/wiki/Q6141059 . Identidad/dirección: INAH I-0012104573, https://catalogonacionalmhi.inah.gob.mx/consulta_publica/detalle/54277 (índice de búsqueda; ficha directa 502)."
+  }
+]

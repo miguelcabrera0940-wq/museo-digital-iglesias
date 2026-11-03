@@ -1,0 +1,62 @@
+[
+  {
+    "id": "00000000-0000-4000-8000-000000000001",
+    "slug": "catedral",
+    "nombre": "Catedral de San Ildefonso",
+    "descripcion": "Descripción de demostración de la Catedral.",
+    "latitud": 20.96715,
+    "longitud": -89.62254,
+    "historia": "Texto de demostración. La historia verificada, con su fuente, se cargará desde la administración.",
+    "direccion": "Centro Histórico, Mérida, Yucatán, México",
+    "telefono": null,
+    "foto_exterior": null,
+    "foto_interior": null,
+    "fuente": null,
+    "es_ejemplo": true
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000002",
+    "slug": "tercera-orden",
+    "nombre": "Iglesia de Jesús o Tercera Orden",
+    "descripcion": "Descripción de demostración de la Iglesia de Jesús.",
+    "latitud": 20.96878,
+    "longitud": -89.6224,
+    "historia": "Texto de demostración. La historia verificada, con su fuente, se cargará desde la administración.",
+    "direccion": "Centro Histórico, Mérida, Yucatán, México",
+    "telefono": null,
+    "foto_exterior": null,
+    "foto_interior": null,
+    "fuente": null,
+    "es_ejemplo": true
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000003",
+    "slug": "santa-lucia",
+    "nombre": "Iglesia de Santa Lucía",
+    "descripcion": "Descripción de demostración de la Iglesia de Santa Lucía.",
+    "latitud": 20.97103,
+    "longitud": -89.62192,
+    "historia": "Texto de demostración. La historia verificada, con su fuente, se cargará desde la administración.",
+    "direccion": "Centro Histórico, Mérida, Yucatán, México",
+    "telefono": null,
+    "foto_exterior": null,
+    "foto_interior": null,
+    "fuente": null,
+    "es_ejemplo": true
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000004",
+    "slug": "santa-ana",
+    "nombre": "Iglesia de Santa Ana",
+    "descripcion": "Descripción de demostración de la Iglesia de Santa Ana.",
+    "latitud": 20.9765,
+    "longitud": -89.62097,
+    "historia": "Texto de demostración. La historia verificada, con su fuente, se cargará desde la administración.",
+    "direccion": "Centro Histórico, Mérida, Yucatán, México",
+    "telefono": null,
+    "foto_exterior": null,
+    "foto_interior": null,
+    "fuente": null,
+    "es_ejemplo": true
+  }
+]

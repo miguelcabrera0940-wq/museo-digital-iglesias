@@ -1,0 +1,45 @@
+/* Trámites y celebraciones: cada guía se presenta como un folleto de papel. */
+
+.tramites h1 { margin-top: 20px; }
+.tramite-selector { display: grid; grid-template-columns: 1fr 1fr; gap: var(--sep); margin: 20px 0 28px; }
+@media (min-width: 900px) { .tramite-selector { grid-template-columns: repeat(5, 1fr); } }
+.tramite-selector .boton:last-child:nth-child(odd) { grid-column: 1 / -1; }
+@media (min-width: 900px) { .tramite-selector .boton:last-child:nth-child(odd) { grid-column: auto; } }
+.tramite-selector .boton { font-family: var(--fuente-titulo); font-size: 1.1rem; min-height: 64px; }
+
+.folleto {
+  max-width: 1000px; background: radial-gradient(ellipse at 50% 30%, var(--pergamino) 55%, var(--piedra) 130%);
+  border: 3px solid var(--madera-media); border-radius: 10px; overflow: hidden;
+  box-shadow: 0 0 0 2px var(--dorado), 0 14px 30px rgba(46, 27, 16, .25);
+}
+.folleto > header { padding: 20px 24px; background: var(--vino); color: var(--pergamino); border-bottom: 4px solid var(--dorado); }
+.folleto > header h2 { margin: 0; font-size: clamp(1.5rem, 3.4vw, 2.1rem); text-wrap: balance; }
+.folleto-aviso { margin: 20px 24px 0; padding: 12px 16px; background: var(--piedra); border: 2px solid var(--madera-media); border-radius: 8px; }
+.folleto-cuerpo { display: grid; gap: 28px; padding: 24px; }
+@media (min-width: 900px) {
+  .folleto-cuerpo { grid-template-columns: 3fr 2fr; gap: 0; padding: 28px 0; }
+  .folleto-cuerpo > section, .folleto-cuerpo > div { padding: 0 32px; }
+  .folleto-cuerpo > aside { padding: 0 32px; border-left: 2px dashed var(--dorado); } /* doblez del folleto */
+}
+.folleto h3 { font-size: 1.4rem; margin-bottom: 16px; }
+.folleto-cuerpo p { max-width: 60ch; }
+.folleto-vacio { padding: 16px; border: 2px dashed var(--madera-media); border-radius: 8px; }
+
+.requisitos { list-style: none; margin: 0; padding: 0; counter-reset: paso; display: grid; gap: 16px; }
+.requisitos li { counter-increment: paso; display: grid; grid-template-columns: 40px 1fr; gap: 14px; align-items: start; }
+.requisitos li::before {
+  content: counter(paso); display: grid; place-items: center; width: 40px; height: 40px; border-radius: 50%;
+  background: var(--vino); color: var(--pergamino); font-family: var(--fuente-titulo); font-weight: 700; font-size: 1.2rem;
+  box-shadow: 0 0 0 3px var(--pergamino), 0 0 0 5px var(--dorado);
+}
+.requisitos li { padding-top: 4px; }
+
+.telefono { margin-top: 20px; padding: 16px; background: var(--piedra); border: 2px solid var(--madera-media); border-radius: 8px; display: grid; gap: 8px; justify-items: start; }
+.telefono p { margin: 0; }
+.telefono h3 { margin: 0; font-size: 1.2rem; }
+.telefono-numero { font-family: var(--fuente-titulo); font-size: 1.7rem; font-weight: 700; }
+
+.folleto > footer { padding: 14px 24px; border-top: 1px solid rgba(74, 44, 23, .3); color: var(--madera-media); }
+
+.requisitos-informados { margin-bottom: 28px; }
+.consultar { list-style: disc; margin: 16px 0 0; padding-left: 22px; display: grid; gap: 12px; max-width: 60ch; }

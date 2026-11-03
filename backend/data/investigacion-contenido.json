@@ -1,0 +1,642 @@
+{
+  "version": 1,
+  "generado": "2026-10-31",
+  "advertencia": "Informe de investigación, no un lote de carga. NINGÚN dato tiene nivel «oficial» respecto a teléfonos parroquiales, horarios ordinarios o requisitos: lo encontrado son referencias secundarias (prensa y directorios privados). Codex no debe integrarlo sin confirmación de Miguel o de la parroquia.",
+  "niveles": {
+    "oficial": "Publicado por la parroquia, diócesis o arquidiócesis.",
+    "secundaria": "Prensa o directorio privado; orientativo.",
+    "ninguno": "Sin evidencia: «Por confirmar»."
+  },
+  "iglesias": [
+    {
+      "slug": "catedral",
+      "nombre": "Catedral de San Ildefonso (Mérida)",
+      "estado": "Mérida, Yucatán"
+    },
+    {
+      "slug": "tercera-orden",
+      "nombre": "Iglesia de Jesús o Tercera Orden (Mérida)",
+      "estado": "Mérida, Yucatán"
+    },
+    {
+      "slug": "santa-lucia",
+      "nombre": "Iglesia de Santa Lucía (Mérida)",
+      "estado": "Mérida, Yucatán"
+    },
+    {
+      "slug": "santa-ana",
+      "nombre": "Iglesia de Santa Ana (Mérida)",
+      "estado": "Mérida, Yucatán"
+    },
+    {
+      "slug": "catedral-campeche",
+      "nombre": "Catedral de la Purísima Concepción (Campeche)",
+      "estado": "Campeche"
+    },
+    {
+      "slug": "dulce-nombre-jesus",
+      "nombre": "Templo del Dulce Nombre de Jesús (Campeche)",
+      "estado": "Campeche"
+    },
+    {
+      "slug": "catedral-puebla",
+      "nombre": "Catedral de Puebla",
+      "estado": "Puebla"
+    },
+    {
+      "slug": "la-compania",
+      "nombre": "Templo del Espíritu Santo o La Compañía (Puebla)",
+      "estado": "Puebla"
+    }
+  ],
+  "fuentes": [
+    {
+      "id": "S1",
+      "institucion": "Diario de Yucatán (periódico)",
+      "tipo": "secundaria",
+      "titulo": "¿A qué hora hay misa en el centro de Mérida?",
+      "url": "https://www.yucatan.com.mx/imagen/2019/01/19/a-que-hora-hay-misa-en-el-centro-de-merida.html",
+      "publicacion": "2019-01-19 (actualizada 2024-12-18)",
+      "consulta": "2026-10-31",
+      "obs": "Listado de prensa, sin firma clara y sin indicar quién proporcionó los datos. Santa Lucía aparece dos veces con horarios distintos. No es una fuente parroquial."
+    },
+    {
+      "id": "S2",
+      "institucion": "Arquidiócesis de Yucatán (sitio oficial)",
+      "tipo": "oficial",
+      "titulo": "Catedral de Mérida",
+      "url": "https://arquidiocesisdeyucatan.org.mx/catedral-de-merida/",
+      "publicacion": "2016-10-12",
+      "consulta": "2026-10-31",
+      "obs": "Solo da dirección «Calle 60, Centro, 97000 Mérida» y el teléfono 9247777, que el sitio repite en todas sus páginas: es el de la arquidiócesis, no el de la oficina parroquial. Sin horarios ni requisitos. El directorio app.arquidiocesisdeyucatan.org.mx/iglesias no devolvió contenido."
+    },
+    {
+      "id": "S3",
+      "institucion": "weekdaymasses.org.uk (directorio privado)",
+      "tipo": "secundaria",
+      "titulo": "Churches in Puebla",
+      "url": "https://weekdaymasses.org.uk/en/area/puebla/churches",
+      "publicacion": "actualizado 2025-06-12",
+      "consulta": "2026-10-31",
+      "obs": "No declara fuente de datos. Solo la Catedral aparece en el centro; La Compañía no."
+    },
+    {
+      "id": "S4",
+      "institucion": "Misas.info (directorio privado)",
+      "tipo": "secundaria",
+      "titulo": "Directorio de misas de Puebla",
+      "url": "https://www.misas.info/",
+      "publicacion": "ficha Catedral 2026-06-25; ficha La Compañía 2025-09-01",
+      "consulta": "2026-10-31",
+      "obs": "Sin responsable ni fuente declarados; recomienda confirmar con cada iglesia. Horarios sin etiquetar por día. El teléfono de La Compañía también aparece en la ficha de otra iglesia. No cubre Campeche."
+    },
+    {
+      "id": "S5",
+      "institucion": "PorEsto! (periódico)",
+      "tipo": "secundaria",
+      "titulo": "Misas de Año Nuevo en Mérida",
+      "url": "https://www.poresto.com/yucatan/merida/2025/12/30/misas-de-ano-nuevo-en-merida-horarios-en-la-catedral-y-otras-iglesias-de-la-ciudad.html",
+      "publicacion": "2025-12-30",
+      "consulta": "2026-10-31",
+      "obs": "Celebraciones especiales de fin de año (31 dic y 1 ene): NO son horarios ordinarios."
+    },
+    {
+      "id": "S6",
+      "institucion": "PorEsto! (periódico)",
+      "tipo": "secundaria",
+      "titulo": "Catedral de Mérida será sede de una boda en San Valentín",
+      "url": "https://www.poresto.com/yucatan/merida/2026/2/14/catedral-de-merida-sera-sede-de-una-boda-en-san-valentin-la-novia-revela-los-detalles.html",
+      "publicacion": "2026-02-14",
+      "consulta": "2026-10-31",
+      "obs": "La sección «¿Qué se necesita para casarse…?» no cita fuente ni parroquia. Costos y plazos son testimonio de una novia en TikTok. No es oficial."
+    },
+    {
+      "id": "S7",
+      "institucion": "PorEsto! (periódico)",
+      "tipo": "secundaria",
+      "titulo": "Yucateca revela cuánto cuesta casarse en la Catedral de Mérida",
+      "url": "https://www.poresto.com/yucatan/merida/2025/8/11/-yucateca-revela-cuanto-cuesta-casarse-en-la-catedral-de-merida-.html",
+      "publicacion": "2025-08-11",
+      "consulta": "2026-10-31",
+      "obs": "Testimonio personal de TikTok; no enumera documentos. Sin valor oficial."
+    },
+    {
+      "id": "S8",
+      "institucion": "Wikimedia Commons",
+      "tipo": "secundaria",
+      "titulo": "Categorías de las iglesias de Mérida, Campeche y Puebla",
+      "url": "https://commons.wikimedia.org/",
+      "publicacion": null,
+      "consulta": "2026-10-31",
+      "obs": "Se listaron las categorías de cada templo para buscar fotos interiores y objetos; ver docs/OBJETOS_MUSEO.md para las piezas ya preparadas."
+    },
+    {
+      "id": "S9",
+      "institucion": "Diario de Yucatán (periódico)",
+      "tipo": "secundaria",
+      "titulo": "El Santo Cristo de las Ampollas, patrimonio de fe y arte en Yucatán",
+      "url": "https://www.yucatan.com.mx/imagen/2026/09/18/el-santo-cristo-de-las-ampollas-patrimonio-de-fe-y-arte-en-yucatan.html",
+      "publicacion": "2026-09-18 (actualizada 2026-09-21)",
+      "consulta": "2026-10-31",
+      "obs": "La imagen original se destruyó en 1915; el texto no aclara qué imagen está hoy en la capilla."
+    }
+  ],
+  "hallazgos": [
+    {
+      "slug": "catedral",
+      "campo": "telefono",
+      "valor": "01 999 255 8622",
+      "nivel": "secundaria",
+      "fuente_id": "S1",
+      "estado": "por_confirmar",
+      "observaciones": "Número que el listado de prensa asocia a la Catedral de San Ildefonso. Distinto del 9247777 de la arquidiócesis (S2). Sin confirmación parroquial."
+    },
+    {
+      "slug": "tercera-orden",
+      "campo": "telefono",
+      "valor": "01 999 924 9712",
+      "nivel": "secundaria",
+      "fuente_id": "S1",
+      "estado": "por_confirmar",
+      "observaciones": "Asociado a «Rectoría El Jesús Tercera Orden»."
+    },
+    {
+      "slug": "santa-lucia",
+      "campo": "telefono",
+      "valor": "01 999 923 1056",
+      "nivel": "secundaria",
+      "fuente_id": "S1",
+      "estado": "por_confirmar",
+      "observaciones": "Aparece en las dos entradas de Santa Lucía. (Un extracto de búsqueda lo atribuyó a la Catedral; la página abierta lo asigna a Santa Lucía.)"
+    },
+    {
+      "slug": "santa-ana",
+      "campo": "telefono",
+      "valor": "01 999 928 5371",
+      "nivel": "secundaria",
+      "fuente_id": "S1",
+      "estado": "por_confirmar",
+      "observaciones": "Asociado a «Parroquia de Santa Ana»."
+    },
+    {
+      "slug": "catedral-puebla",
+      "campo": "telefono",
+      "valor": "222 232 3803 / 222 232 2316",
+      "nivel": "secundaria",
+      "fuente_id": "S4",
+      "estado": "por_confirmar",
+      "observaciones": "Coinciden S3 (solo 232 3803) y S4. No se sabe si es la oficina parroquial de la Catedral o del Sagrario."
+    },
+    {
+      "slug": "la-compania",
+      "campo": "telefono",
+      "valor": "222 232 2375",
+      "nivel": "secundaria",
+      "fuente_id": "S4",
+      "estado": "por_confirmar",
+      "observaciones": "Aparece también en la ficha de otra iglesia del mismo directorio: posible error."
+    },
+    {
+      "slug": "catedral-campeche",
+      "campo": "telefono",
+      "valor": null,
+      "nivel": "ninguno",
+      "fuente_id": null,
+      "estado": "por_confirmar",
+      "observaciones": "Sin fuente. 891 816 0339 y 981 816 2524 son del archivo histórico diocesano (guía ADABI 2021), no de la catedral."
+    },
+    {
+      "slug": "dulce-nombre-jesus",
+      "campo": "telefono",
+      "valor": null,
+      "nivel": "ninguno",
+      "fuente_id": null,
+      "estado": "por_confirmar",
+      "observaciones": "Sin fuente."
+    },
+    {
+      "slug": "catedral",
+      "campo": "horarios_misa",
+      "valor": "Lun–sáb 7:00, 8:15 (conventual), 9:30 (capilla El Divino Maestro), 11:15, 17:15 y 18:30. Dom 7:00, 8:15, 9:00 (inglés), 10:00, 11:00, 12:00, 13:00, 17:00 y 18:30. Confesiones lun–sáb 8:00–11:00, dom 8:00–9:00.",
+      "nivel": "secundaria",
+      "fuente_id": "S1",
+      "estado": "por_confirmar",
+      "observaciones": "Sujetos a cambio por fiestas patronales según el propio listado; el listado es de 2019 con una actualización de 2024 sin detalle. Para el 1 de enero de 2026, S5 da otros horarios (especiales)."
+    },
+    {
+      "slug": "tercera-orden",
+      "campo": "horarios_misa",
+      "valor": "Mar–vie 7:30 y 19:00; sáb solo bodas; dom 9:00, 10:30 (en maya) y 12:00; «7:00 y 8:15 p. m.» sin días.",
+      "nivel": "secundaria",
+      "fuente_id": "S1",
+      "estado": "por_confirmar",
+      "observaciones": "Texto con erratas («12:00 im») y una línea sin días. No hay horario oficial."
+    },
+    {
+      "slug": "santa-lucia",
+      "campo": "horarios_misa",
+      "valor": "Entrada 1: mar–vie 18:30, sáb 18:00, dom 8:50 y 11:00. Entrada 2: lun–sáb 18:00, dom 9:00 y 10:00.",
+      "nivel": "secundaria",
+      "fuente_id": "S1",
+      "estado": "por_confirmar",
+      "observaciones": "Dos bloques contradictorios para la misma iglesia; no se puede elegir uno. S5 da horarios especiales de fin de año (31 dic 18:30 y 21:00)."
+    },
+    {
+      "slug": "santa-ana",
+      "campo": "horarios_misa",
+      "valor": "Mar–sáb 9:00 y 19:00; dom 11:00, 17:00 y 19:00; confesiones jueves 18:00.",
+      "nivel": "secundaria",
+      "fuente_id": "S1",
+      "estado": "por_confirmar",
+      "observaciones": "Sin fuente más reciente."
+    },
+    {
+      "slug": "catedral-puebla",
+      "campo": "horarios_misa",
+      "valor": "Lun–vie 8:00, 9:00, 12:00 y 19:00; sáb 8:00 y 9:00; dom 8:00, 9:00, 10:00 (la preside el obispo), 12:00, 13:00, 14:00, 18:00 y 19:00.",
+      "nivel": "secundaria",
+      "fuente_id": "S3",
+      "estado": "por_confirmar",
+      "observaciones": "S4 (2026-06-25) coincide en los horarios entre semana y dominicales. Dos directorios privados, sin fuente declarada."
+    },
+    {
+      "slug": "la-compania",
+      "campo": "horarios_misa",
+      "valor": "Lun–vie 12:00 y 19:00; otra línea «10am 1pm, 7pm» sin días.",
+      "nivel": "secundaria",
+      "fuente_id": "S4",
+      "estado": "por_confirmar",
+      "observaciones": "Incompleto y sin etiquetas; no usar sin confirmar."
+    },
+    {
+      "slug": "catedral-campeche",
+      "campo": "horarios_misa",
+      "valor": null,
+      "nivel": "ninguno",
+      "fuente_id": null,
+      "estado": "por_confirmar",
+      "observaciones": "Sin fuente abierta."
+    },
+    {
+      "slug": "dulce-nombre-jesus",
+      "campo": "horarios_misa",
+      "valor": null,
+      "nivel": "ninguno",
+      "fuente_id": null,
+      "estado": "por_confirmar",
+      "observaciones": "Sin fuente abierta."
+    },
+    {
+      "slug": "catedral",
+      "campo": "requisitos_bautizos",
+      "valor": null,
+      "nivel": "ninguno",
+      "fuente_id": null,
+      "estado": "por_confirmar",
+      "observaciones": "No se encontró publicación de la parroquia o diócesis."
+    },
+    {
+      "slug": "catedral",
+      "campo": "requisitos_bodas",
+      "valor": [
+        "Certificados de bautismo y confirmación actualizados",
+        "Constancia de pláticas prematrimoniales",
+        "Acta de matrimonio civil",
+        "Identificación oficial",
+        "Presentación con dos testigos por cada contrayente",
+        "Iniciar el trámite al menos seis meses antes"
+      ],
+      "nivel": "secundaria",
+      "fuente_id": "S6",
+      "estado": "por_confirmar",
+      "observaciones": "Nota de prensa sin fuente identificada; no es publicación de la parroquia. No copiar a otras iglesias."
+    },
+    {
+      "slug": "catedral",
+      "campo": "requisitos_misas_difuntos",
+      "valor": null,
+      "nivel": "ninguno",
+      "fuente_id": null,
+      "estado": "por_confirmar",
+      "observaciones": "No se encontró publicación de la parroquia o diócesis."
+    },
+    {
+      "slug": "catedral",
+      "campo": "requisitos_urnas_nichos",
+      "valor": null,
+      "nivel": "ninguno",
+      "fuente_id": null,
+      "estado": "por_confirmar",
+      "observaciones": "No se encontró publicación de la parroquia o diócesis."
+    },
+    {
+      "slug": "tercera-orden",
+      "campo": "requisitos_bautizos",
+      "valor": null,
+      "nivel": "ninguno",
+      "fuente_id": null,
+      "estado": "por_confirmar",
+      "observaciones": "No se encontró publicación de la parroquia o diócesis."
+    },
+    {
+      "slug": "tercera-orden",
+      "campo": "requisitos_bodas",
+      "valor": null,
+      "nivel": "ninguno",
+      "fuente_id": null,
+      "estado": "por_confirmar",
+      "observaciones": "No se encontró publicación de la parroquia o diócesis."
+    },
+    {
+      "slug": "tercera-orden",
+      "campo": "requisitos_misas_difuntos",
+      "valor": null,
+      "nivel": "ninguno",
+      "fuente_id": null,
+      "estado": "por_confirmar",
+      "observaciones": "No se encontró publicación de la parroquia o diócesis."
+    },
+    {
+      "slug": "tercera-orden",
+      "campo": "requisitos_urnas_nichos",
+      "valor": null,
+      "nivel": "ninguno",
+      "fuente_id": null,
+      "estado": "por_confirmar",
+      "observaciones": "No se encontró publicación de la parroquia o diócesis."
+    },
+    {
+      "slug": "santa-lucia",
+      "campo": "requisitos_bautizos",
+      "valor": null,
+      "nivel": "ninguno",
+      "fuente_id": null,
+      "estado": "por_confirmar",
+      "observaciones": "No se encontró publicación de la parroquia o diócesis."
+    },
+    {
+      "slug": "santa-lucia",
+      "campo": "requisitos_bodas",
+      "valor": null,
+      "nivel": "ninguno",
+      "fuente_id": null,
+      "estado": "por_confirmar",
+      "observaciones": "No se encontró publicación de la parroquia o diócesis."
+    },
+    {
+      "slug": "santa-lucia",
+      "campo": "requisitos_misas_difuntos",
+      "valor": null,
+      "nivel": "ninguno",
+      "fuente_id": null,
+      "estado": "por_confirmar",
+      "observaciones": "No se encontró publicación de la parroquia o diócesis."
+    },
+    {
+      "slug": "santa-lucia",
+      "campo": "requisitos_urnas_nichos",
+      "valor": null,
+      "nivel": "ninguno",
+      "fuente_id": null,
+      "estado": "por_confirmar",
+      "observaciones": "No se encontró publicación de la parroquia o diócesis."
+    },
+    {
+      "slug": "santa-ana",
+      "campo": "requisitos_bautizos",
+      "valor": null,
+      "nivel": "ninguno",
+      "fuente_id": null,
+      "estado": "por_confirmar",
+      "observaciones": "No se encontró publicación de la parroquia o diócesis."
+    },
+    {
+      "slug": "santa-ana",
+      "campo": "requisitos_bodas",
+      "valor": null,
+      "nivel": "ninguno",
+      "fuente_id": null,
+      "estado": "por_confirmar",
+      "observaciones": "No se encontró publicación de la parroquia o diócesis."
+    },
+    {
+      "slug": "santa-ana",
+      "campo": "requisitos_misas_difuntos",
+      "valor": null,
+      "nivel": "ninguno",
+      "fuente_id": null,
+      "estado": "por_confirmar",
+      "observaciones": "No se encontró publicación de la parroquia o diócesis."
+    },
+    {
+      "slug": "santa-ana",
+      "campo": "requisitos_urnas_nichos",
+      "valor": null,
+      "nivel": "ninguno",
+      "fuente_id": null,
+      "estado": "por_confirmar",
+      "observaciones": "No se encontró publicación de la parroquia o diócesis."
+    },
+    {
+      "slug": "catedral-campeche",
+      "campo": "requisitos_bautizos",
+      "valor": null,
+      "nivel": "ninguno",
+      "fuente_id": null,
+      "estado": "por_confirmar",
+      "observaciones": "No se encontró publicación de la parroquia o diócesis."
+    },
+    {
+      "slug": "catedral-campeche",
+      "campo": "requisitos_bodas",
+      "valor": null,
+      "nivel": "ninguno",
+      "fuente_id": null,
+      "estado": "por_confirmar",
+      "observaciones": "No se encontró publicación de la parroquia o diócesis."
+    },
+    {
+      "slug": "catedral-campeche",
+      "campo": "requisitos_misas_difuntos",
+      "valor": null,
+      "nivel": "ninguno",
+      "fuente_id": null,
+      "estado": "por_confirmar",
+      "observaciones": "No se encontró publicación de la parroquia o diócesis."
+    },
+    {
+      "slug": "catedral-campeche",
+      "campo": "requisitos_urnas_nichos",
+      "valor": null,
+      "nivel": "ninguno",
+      "fuente_id": null,
+      "estado": "por_confirmar",
+      "observaciones": "No se encontró publicación de la parroquia o diócesis."
+    },
+    {
+      "slug": "dulce-nombre-jesus",
+      "campo": "requisitos_bautizos",
+      "valor": null,
+      "nivel": "ninguno",
+      "fuente_id": null,
+      "estado": "por_confirmar",
+      "observaciones": "No se encontró publicación de la parroquia o diócesis."
+    },
+    {
+      "slug": "dulce-nombre-jesus",
+      "campo": "requisitos_bodas",
+      "valor": null,
+      "nivel": "ninguno",
+      "fuente_id": null,
+      "estado": "por_confirmar",
+      "observaciones": "No se encontró publicación de la parroquia o diócesis."
+    },
+    {
+      "slug": "dulce-nombre-jesus",
+      "campo": "requisitos_misas_difuntos",
+      "valor": null,
+      "nivel": "ninguno",
+      "fuente_id": null,
+      "estado": "por_confirmar",
+      "observaciones": "No se encontró publicación de la parroquia o diócesis."
+    },
+    {
+      "slug": "dulce-nombre-jesus",
+      "campo": "requisitos_urnas_nichos",
+      "valor": null,
+      "nivel": "ninguno",
+      "fuente_id": null,
+      "estado": "por_confirmar",
+      "observaciones": "No se encontró publicación de la parroquia o diócesis."
+    },
+    {
+      "slug": "catedral-puebla",
+      "campo": "requisitos_bautizos",
+      "valor": null,
+      "nivel": "ninguno",
+      "fuente_id": null,
+      "estado": "por_confirmar",
+      "observaciones": "No se encontró publicación de la parroquia o diócesis."
+    },
+    {
+      "slug": "catedral-puebla",
+      "campo": "requisitos_bodas",
+      "valor": null,
+      "nivel": "ninguno",
+      "fuente_id": null,
+      "estado": "por_confirmar",
+      "observaciones": "No se encontró publicación de la parroquia o diócesis."
+    },
+    {
+      "slug": "catedral-puebla",
+      "campo": "requisitos_misas_difuntos",
+      "valor": null,
+      "nivel": "ninguno",
+      "fuente_id": null,
+      "estado": "por_confirmar",
+      "observaciones": "No se encontró publicación de la parroquia o diócesis."
+    },
+    {
+      "slug": "catedral-puebla",
+      "campo": "requisitos_urnas_nichos",
+      "valor": null,
+      "nivel": "ninguno",
+      "fuente_id": null,
+      "estado": "por_confirmar",
+      "observaciones": "No se encontró publicación de la parroquia o diócesis."
+    },
+    {
+      "slug": "la-compania",
+      "campo": "requisitos_bautizos",
+      "valor": null,
+      "nivel": "ninguno",
+      "fuente_id": null,
+      "estado": "por_confirmar",
+      "observaciones": "No se encontró publicación de la parroquia o diócesis."
+    },
+    {
+      "slug": "la-compania",
+      "campo": "requisitos_bodas",
+      "valor": null,
+      "nivel": "ninguno",
+      "fuente_id": null,
+      "estado": "por_confirmar",
+      "observaciones": "No se encontró publicación de la parroquia o diócesis."
+    },
+    {
+      "slug": "la-compania",
+      "campo": "requisitos_misas_difuntos",
+      "valor": null,
+      "nivel": "ninguno",
+      "fuente_id": null,
+      "estado": "por_confirmar",
+      "observaciones": "No se encontró publicación de la parroquia o diócesis."
+    },
+    {
+      "slug": "la-compania",
+      "campo": "requisitos_urnas_nichos",
+      "valor": null,
+      "nivel": "ninguno",
+      "fuente_id": null,
+      "estado": "por_confirmar",
+      "observaciones": "No se encontró publicación de la parroquia o diócesis."
+    },
+    {
+      "slug": "santa-ana",
+      "campo": "foto_interior",
+      "valor": null,
+      "nivel": "ninguno",
+      "fuente_id": "S8",
+      "estado": "por_confirmar",
+      "observaciones": "Sin fotografía interior con licencia libre en la categoría de Commons del templo."
+    },
+    {
+      "slug": "dulce-nombre-jesus",
+      "campo": "foto_interior",
+      "valor": null,
+      "nivel": "ninguno",
+      "fuente_id": "S8",
+      "estado": "por_confirmar",
+      "observaciones": "Sin fotografía interior con licencia libre en la categoría de Commons del templo."
+    },
+    {
+      "slug": "santa-lucia",
+      "campo": "objetos",
+      "valor": null,
+      "nivel": "ninguno",
+      "fuente_id": "S8",
+      "estado": "por_confirmar",
+      "observaciones": "Sin pieza documentada con fotografía libre del propio templo (solo «marco de piedra» sin datos)."
+    },
+    {
+      "slug": "santa-ana",
+      "campo": "objetos",
+      "valor": null,
+      "nivel": "ninguno",
+      "fuente_id": "S8",
+      "estado": "por_confirmar",
+      "observaciones": "Sin pieza documentada con fotografía libre."
+    },
+    {
+      "slug": "catedral",
+      "campo": "objetos_descartados",
+      "valor": [
+        "Cristo de las Ampollas",
+        "Cristo de la Unidad"
+      ],
+      "nivel": "ninguno",
+      "fuente_id": "S9",
+      "estado": "por_confirmar",
+      "observaciones": "El primero: la imagen original se destruyó en 1915 y no queda claro cuál se venera hoy. El segundo: obra de Lapayese del Río en el altar mayor, sin fotografía libre identificable."
+    }
+  ],
+  "resumen_oficial": [
+    {
+      "slug": "catedral",
+      "campo": "direccion",
+      "valor": "Calle 60, Centro, 97000 Mérida, Yuc. (la arquidiócesis; no es dirección postal de la parroquia)",
+      "fuente_id": "S2"
+    }
+  ],
+  "integrar": "Nada de este archivo se debe cargar hoy en Neon: no hay datos oficiales nuevos. Los objetos y fotos ya preparados están en backend/data/objetos-museo.json."
+}

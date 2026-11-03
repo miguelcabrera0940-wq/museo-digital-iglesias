@@ -1,0 +1,1070 @@
+{
+  "fecha": "2026-11-01T06:59:10.447Z",
+  "node": "v24.21.0",
+  "alcance": "GET públicos sin sesión, Catedral de Mérida como recorrido representativo",
+  "limites": [
+    "Primera observación no equivale a arranque frío; no se reinician servidores ni Neon.",
+    "Recorrido de peticiones reproduce el código; no es medición de render React ni captura Network del navegador.",
+    "Proxy se mide después de API directa: Neon/pools pueden estar calientes. No restar tiempos como prueba aislada del proxy.",
+    "driver_ms incluye ida/vuelta y servidor; EXPLAIN separa ejecución SQL. Pool propio del diagnóstico, no el pool del servidor."
+  ],
+  "huella_backend": "eec5177244c707e9a96976d72ee1567cc90aaf26f081432bf5665e1af2ddab04",
+  "api_directa": {
+    "resultados": [
+      {
+        "vuelta": "primera_observada",
+        "pasos": [
+          {
+            "nombre": "mapa",
+            "total_ms": 2862.41,
+            "peticiones": [
+              {
+                "ruta": "/api/iglesias?estado=yucatan",
+                "estado": 200,
+                "cabeceras_ms": 2860.3,
+                "cuerpo_ms": 1.67,
+                "total_ms": 2861.97,
+                "bytes": 7167,
+                "server_timing": []
+              }
+            ]
+          },
+          {
+            "nombre": "iglesia",
+            "total_ms": 298.81,
+            "peticiones": [
+              {
+                "ruta": "/api/iglesias/catedral",
+                "estado": 200,
+                "cabeceras_ms": 298.45,
+                "cuerpo_ms": 0.22,
+                "total_ms": 298.66,
+                "bytes": 1871,
+                "server_timing": []
+              }
+            ]
+          },
+          {
+            "nombre": "museo_y_biblioteca",
+            "total_ms": 560.64,
+            "peticiones": [
+              {
+                "ruta": "/api/iglesias/catedral",
+                "estado": 200,
+                "cabeceras_ms": 179.92,
+                "cuerpo_ms": 0.14,
+                "total_ms": 180.06,
+                "bytes": 1871,
+                "server_timing": []
+              },
+              {
+                "ruta": "/api/iglesias/catedral/materiales",
+                "estado": 200,
+                "cabeceras_ms": 559.74,
+                "cuerpo_ms": 0.15,
+                "total_ms": 559.89,
+                "bytes": 4466,
+                "server_timing": []
+              }
+            ]
+          },
+          {
+            "nombre": "ficha_cuaderno",
+            "total_ms": 204.13,
+            "peticiones": [
+              {
+                "ruta": "/api/iglesias/catedral",
+                "estado": 200,
+                "cabeceras_ms": 172.04,
+                "cuerpo_ms": 0.24,
+                "total_ms": 172.29,
+                "bytes": 1871,
+                "server_timing": []
+              },
+              {
+                "ruta": "/api/materiales/ab6d29dd-a307-88f6-ab6b-dcf7d4f18c43",
+                "estado": 200,
+                "cabeceras_ms": 203.23,
+                "cuerpo_ms": 0.16,
+                "total_ms": 203.38,
+                "bytes": 674,
+                "server_timing": []
+              }
+            ]
+          },
+          {
+            "nombre": "lector",
+            "total_ms": 193.13,
+            "peticiones": [
+              {
+                "ruta": "/api/materiales/ab6d29dd-a307-88f6-ab6b-dcf7d4f18c43/documento",
+                "estado": 200,
+                "cabeceras_ms": 192.93,
+                "cuerpo_ms": 0.14,
+                "total_ms": 193.07,
+                "bytes": 3493,
+                "server_timing": []
+              }
+            ]
+          },
+          {
+            "nombre": "tramites",
+            "total_ms": 180.51,
+            "peticiones": [
+              {
+                "ruta": "/api/iglesias/catedral",
+                "estado": 200,
+                "cabeceras_ms": 174.23,
+                "cuerpo_ms": 0.32,
+                "total_ms": 174.54,
+                "bytes": 1871,
+                "server_timing": []
+              },
+              {
+                "ruta": "/api/iglesias/catedral/tramites",
+                "estado": 200,
+                "cabeceras_ms": 179.88,
+                "cuerpo_ms": 0.27,
+                "total_ms": 180.15,
+                "bytes": 1825,
+                "server_timing": []
+              }
+            ]
+          },
+          {
+            "nombre": "volver_al_museo",
+            "total_ms": 174.29,
+            "peticiones": [
+              {
+                "ruta": "/api/iglesias/catedral",
+                "estado": 200,
+                "cabeceras_ms": 171.25,
+                "cuerpo_ms": 0.29,
+                "total_ms": 171.54,
+                "bytes": 1871,
+                "server_timing": []
+              },
+              {
+                "ruta": "/api/iglesias/catedral/materiales",
+                "estado": 200,
+                "cabeceras_ms": 173.5,
+                "cuerpo_ms": 0.12,
+                "total_ms": 173.62,
+                "bytes": 4466,
+                "server_timing": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vuelta": "navegacion_posterior",
+        "pasos": [
+          {
+            "nombre": "mapa",
+            "total_ms": 182.61,
+            "peticiones": [
+              {
+                "ruta": "/api/iglesias?estado=yucatan",
+                "estado": 200,
+                "cabeceras_ms": 182.28,
+                "cuerpo_ms": 0.22,
+                "total_ms": 182.5,
+                "bytes": 7167,
+                "server_timing": []
+              }
+            ]
+          },
+          {
+            "nombre": "iglesia",
+            "total_ms": 176.59,
+            "peticiones": [
+              {
+                "ruta": "/api/iglesias/catedral",
+                "estado": 200,
+                "cabeceras_ms": 176.31,
+                "cuerpo_ms": 0.2,
+                "total_ms": 176.51,
+                "bytes": 1871,
+                "server_timing": []
+              }
+            ]
+          },
+          {
+            "nombre": "museo_y_biblioteca",
+            "total_ms": 173.42,
+            "peticiones": [
+              {
+                "ruta": "/api/iglesias/catedral",
+                "estado": 200,
+                "cabeceras_ms": 173.19,
+                "cuerpo_ms": 0.15,
+                "total_ms": 173.34,
+                "bytes": 1871,
+                "server_timing": []
+              },
+              {
+                "ruta": "/api/iglesias/catedral/materiales",
+                "estado": 200,
+                "cabeceras_ms": 172.37,
+                "cuerpo_ms": 0.16,
+                "total_ms": 172.52,
+                "bytes": 4466,
+                "server_timing": []
+              }
+            ]
+          },
+          {
+            "nombre": "ficha_cuaderno",
+            "total_ms": 173.02,
+            "peticiones": [
+              {
+                "ruta": "/api/iglesias/catedral",
+                "estado": 200,
+                "cabeceras_ms": 172.87,
+                "cuerpo_ms": 0.09,
+                "total_ms": 172.97,
+                "bytes": 1871,
+                "server_timing": []
+              },
+              {
+                "ruta": "/api/materiales/ab6d29dd-a307-88f6-ab6b-dcf7d4f18c43",
+                "estado": 200,
+                "cabeceras_ms": 170.29,
+                "cuerpo_ms": 0.19,
+                "total_ms": 170.48,
+                "bytes": 674,
+                "server_timing": []
+              }
+            ]
+          },
+          {
+            "nombre": "lector",
+            "total_ms": 179.99,
+            "peticiones": [
+              {
+                "ruta": "/api/materiales/ab6d29dd-a307-88f6-ab6b-dcf7d4f18c43/documento",
+                "estado": 200,
+                "cabeceras_ms": 179.72,
+                "cuerpo_ms": 0.2,
+                "total_ms": 179.91,
+                "bytes": 3493,
+                "server_timing": []
+              }
+            ]
+          },
+          {
+            "nombre": "tramites",
+            "total_ms": 173.8,
+            "peticiones": [
+              {
+                "ruta": "/api/iglesias/catedral",
+                "estado": 200,
+                "cabeceras_ms": 173.66,
+                "cuerpo_ms": 0.1,
+                "total_ms": 173.77,
+                "bytes": 1871,
+                "server_timing": []
+              },
+              {
+                "ruta": "/api/iglesias/catedral/tramites",
+                "estado": 200,
+                "cabeceras_ms": 172.53,
+                "cuerpo_ms": 0.24,
+                "total_ms": 172.77,
+                "bytes": 1825,
+                "server_timing": []
+              }
+            ]
+          },
+          {
+            "nombre": "volver_al_museo",
+            "total_ms": 173.23,
+            "peticiones": [
+              {
+                "ruta": "/api/iglesias/catedral",
+                "estado": 200,
+                "cabeceras_ms": 173.14,
+                "cuerpo_ms": 0.06,
+                "total_ms": 173.2,
+                "bytes": 1871,
+                "server_timing": []
+              },
+              {
+                "ruta": "/api/iglesias/catedral/materiales",
+                "estado": 200,
+                "cabeceras_ms": 172.41,
+                "cuerpo_ms": 0.18,
+                "total_ms": 172.6,
+                "bytes": 4466,
+                "server_timing": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bloqueado": false
+  },
+  "proxy_vite": {
+    "resultados": [
+      {
+        "vuelta": "primera_observada",
+        "pasos": [
+          {
+            "nombre": "mapa",
+            "total_ms": 185.75,
+            "peticiones": [
+              {
+                "ruta": "/api/iglesias?estado=yucatan",
+                "estado": 200,
+                "cabeceras_ms": 185.57,
+                "cuerpo_ms": 0.12,
+                "total_ms": 185.69,
+                "bytes": 7167,
+                "server_timing": []
+              }
+            ]
+          },
+          {
+            "nombre": "iglesia",
+            "total_ms": 175.45,
+            "peticiones": [
+              {
+                "ruta": "/api/iglesias/catedral",
+                "estado": 200,
+                "cabeceras_ms": 175.31,
+                "cuerpo_ms": 0.09,
+                "total_ms": 175.39,
+                "bytes": 1871,
+                "server_timing": []
+              }
+            ]
+          },
+          {
+            "nombre": "museo_y_biblioteca",
+            "total_ms": 176.69,
+            "peticiones": [
+              {
+                "ruta": "/api/iglesias/catedral",
+                "estado": 200,
+                "cabeceras_ms": 176.57,
+                "cuerpo_ms": 0.08,
+                "total_ms": 176.65,
+                "bytes": 1871,
+                "server_timing": []
+              },
+              {
+                "ruta": "/api/iglesias/catedral/materiales",
+                "estado": 200,
+                "cabeceras_ms": 173.33,
+                "cuerpo_ms": 0.15,
+                "total_ms": 173.49,
+                "bytes": 4466,
+                "server_timing": []
+              }
+            ]
+          },
+          {
+            "nombre": "ficha_cuaderno",
+            "total_ms": 183.7,
+            "peticiones": [
+              {
+                "ruta": "/api/iglesias/catedral",
+                "estado": 200,
+                "cabeceras_ms": 183.57,
+                "cuerpo_ms": 0.09,
+                "total_ms": 183.66,
+                "bytes": 1871,
+                "server_timing": []
+              },
+              {
+                "ruta": "/api/materiales/ab6d29dd-a307-88f6-ab6b-dcf7d4f18c43",
+                "estado": 200,
+                "cabeceras_ms": 179.11,
+                "cuerpo_ms": 0.14,
+                "total_ms": 179.24,
+                "bytes": 674,
+                "server_timing": []
+              }
+            ]
+          },
+          {
+            "nombre": "lector",
+            "total_ms": 177.26,
+            "peticiones": [
+              {
+                "ruta": "/api/materiales/ab6d29dd-a307-88f6-ab6b-dcf7d4f18c43/documento",
+                "estado": 200,
+                "cabeceras_ms": 177.06,
+                "cuerpo_ms": 0.15,
+                "total_ms": 177.2,
+                "bytes": 3493,
+                "server_timing": []
+              }
+            ]
+          },
+          {
+            "nombre": "tramites",
+            "total_ms": 173.99,
+            "peticiones": [
+              {
+                "ruta": "/api/iglesias/catedral",
+                "estado": 200,
+                "cabeceras_ms": 173.88,
+                "cuerpo_ms": 0.08,
+                "total_ms": 173.96,
+                "bytes": 1871,
+                "server_timing": []
+              },
+              {
+                "ruta": "/api/iglesias/catedral/tramites",
+                "estado": 200,
+                "cabeceras_ms": 172.8,
+                "cuerpo_ms": 0.1,
+                "total_ms": 172.9,
+                "bytes": 1825,
+                "server_timing": []
+              }
+            ]
+          },
+          {
+            "nombre": "volver_al_museo",
+            "total_ms": 175.68,
+            "peticiones": [
+              {
+                "ruta": "/api/iglesias/catedral",
+                "estado": 200,
+                "cabeceras_ms": 175.54,
+                "cuerpo_ms": 0.09,
+                "total_ms": 175.64,
+                "bytes": 1871,
+                "server_timing": []
+              },
+              {
+                "ruta": "/api/iglesias/catedral/materiales",
+                "estado": 200,
+                "cabeceras_ms": 173.11,
+                "cuerpo_ms": 0.18,
+                "total_ms": 173.29,
+                "bytes": 4466,
+                "server_timing": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "vuelta": "navegacion_posterior",
+        "pasos": [
+          {
+            "nombre": "mapa",
+            "total_ms": 179.5,
+            "peticiones": [
+              {
+                "ruta": "/api/iglesias?estado=yucatan",
+                "estado": 200,
+                "cabeceras_ms": 179.24,
+                "cuerpo_ms": 0.18,
+                "total_ms": 179.42,
+                "bytes": 7167,
+                "server_timing": []
+              }
+            ]
+          },
+          {
+            "nombre": "iglesia",
+            "total_ms": 178.61,
+            "peticiones": [
+              {
+                "ruta": "/api/iglesias/catedral",
+                "estado": 200,
+                "cabeceras_ms": 178.37,
+                "cuerpo_ms": 0.17,
+                "total_ms": 178.54,
+                "bytes": 1871,
+                "server_timing": []
+              }
+            ]
+          },
+          {
+            "nombre": "museo_y_biblioteca",
+            "total_ms": 177.82,
+            "peticiones": [
+              {
+                "ruta": "/api/iglesias/catedral",
+                "estado": 200,
+                "cabeceras_ms": 177.72,
+                "cuerpo_ms": 0.07,
+                "total_ms": 177.79,
+                "bytes": 1871,
+                "server_timing": []
+              },
+              {
+                "ruta": "/api/iglesias/catedral/materiales",
+                "estado": 200,
+                "cabeceras_ms": 176.51,
+                "cuerpo_ms": 0.19,
+                "total_ms": 176.71,
+                "bytes": 4466,
+                "server_timing": []
+              }
+            ]
+          },
+          {
+            "nombre": "ficha_cuaderno",
+            "total_ms": 176.33,
+            "peticiones": [
+              {
+                "ruta": "/api/iglesias/catedral",
+                "estado": 200,
+                "cabeceras_ms": 176.23,
+                "cuerpo_ms": 0.07,
+                "total_ms": 176.3,
+                "bytes": 1871,
+                "server_timing": []
+              },
+              {
+                "ruta": "/api/materiales/ab6d29dd-a307-88f6-ab6b-dcf7d4f18c43",
+                "estado": 200,
+                "cabeceras_ms": 175.07,
+                "cuerpo_ms": 0.2,
+                "total_ms": 175.26,
+                "bytes": 674,
+                "server_timing": []
+              }
+            ]
+          },
+          {
+            "nombre": "lector",
+            "total_ms": 176.23,
+            "peticiones": [
+              {
+                "ruta": "/api/materiales/ab6d29dd-a307-88f6-ab6b-dcf7d4f18c43/documento",
+                "estado": 200,
+                "cabeceras_ms": 176.01,
+                "cuerpo_ms": 0.13,
+                "total_ms": 176.15,
+                "bytes": 3493,
+                "server_timing": []
+              }
+            ]
+          },
+          {
+            "nombre": "tramites",
+            "total_ms": 177.35,
+            "peticiones": [
+              {
+                "ruta": "/api/iglesias/catedral",
+                "estado": 200,
+                "cabeceras_ms": 177.14,
+                "cuerpo_ms": 0.15,
+                "total_ms": 177.3,
+                "bytes": 1871,
+                "server_timing": []
+              },
+              {
+                "ruta": "/api/iglesias/catedral/tramites",
+                "estado": 200,
+                "cabeceras_ms": 175.78,
+                "cuerpo_ms": 0.14,
+                "total_ms": 175.92,
+                "bytes": 1825,
+                "server_timing": []
+              }
+            ]
+          },
+          {
+            "nombre": "volver_al_museo",
+            "total_ms": 177.32,
+            "peticiones": [
+              {
+                "ruta": "/api/iglesias/catedral",
+                "estado": 200,
+                "cabeceras_ms": 177.19,
+                "cuerpo_ms": 0.09,
+                "total_ms": 177.28,
+                "bytes": 1871,
+                "server_timing": []
+              },
+              {
+                "ruta": "/api/iglesias/catedral/materiales",
+                "estado": 200,
+                "cabeceras_ms": 173.29,
+                "cuerpo_ms": 0.12,
+                "total_ms": 173.4,
+                "bytes": 4466,
+                "server_timing": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bloqueado": false
+  },
+  "imagenes": [
+    {
+      "vuelta": "primera_observada",
+      "ruta": "/imagenes/catedral-interior.jpg",
+      "estado": 200,
+      "cabeceras_ms": 2.12,
+      "cuerpo_ms": 0.48,
+      "total_ms": 2.6,
+      "bytes": 206611,
+      "server_timing": []
+    },
+    {
+      "vuelta": "posterior_sin_simular_cache_del_navegador",
+      "ruta": "/imagenes/catedral-interior.jpg",
+      "estado": 200,
+      "cabeceras_ms": 2.03,
+      "cuerpo_ms": 0.49,
+      "total_ms": 2.53,
+      "bytes": 206611,
+      "server_timing": []
+    },
+    {
+      "vuelta": "primera_observada",
+      "ruta": "/imagenes/catedral-exterior.jpg",
+      "estado": 200,
+      "cabeceras_ms": 1.96,
+      "cuerpo_ms": 0.87,
+      "total_ms": 2.82,
+      "bytes": 440950,
+      "server_timing": []
+    },
+    {
+      "vuelta": "posterior_sin_simular_cache_del_navegador",
+      "ruta": "/imagenes/catedral-exterior.jpg",
+      "estado": 200,
+      "cabeceras_ms": 1.68,
+      "cuerpo_ms": 1.57,
+      "total_ms": 3.25,
+      "bytes": 440950,
+      "server_timing": []
+    }
+  ],
+  "neon": {
+    "operaciones": [
+      {
+        "nombre": "primera_conexion_del_diagnostico/catalogo",
+        "adquisiciones": [
+          {
+            "ms": 383.88,
+            "conexion_nueva": true,
+            "esperando": 0
+          }
+        ],
+        "comandos": [
+          {
+            "fase": "preparacion_segura",
+            "huella_sql": "6bf6641853884ba0",
+            "driver_ms": 61.58
+          },
+          {
+            "fase": "consulta",
+            "huella_sql": "ce6af4039ca6aa7e",
+            "driver_ms": 60.56
+          },
+          {
+            "fase": "commit",
+            "huella_sql": "79663c1d3b43ceaf",
+            "driver_ms": 58.92
+          }
+        ],
+        "total_ms": 565.93
+      },
+      {
+        "nombre": "primera_conexion_del_diagnostico/iglesia",
+        "adquisiciones": [
+          {
+            "ms": 0.14,
+            "conexion_nueva": false,
+            "esperando": 0
+          }
+        ],
+        "comandos": [
+          {
+            "fase": "preparacion_segura",
+            "huella_sql": "6bf6641853884ba0",
+            "driver_ms": 60.74
+          },
+          {
+            "fase": "consulta",
+            "huella_sql": "ad7b98f1b86dbf90",
+            "driver_ms": 59.52
+          },
+          {
+            "fase": "commit",
+            "huella_sql": "79663c1d3b43ceaf",
+            "driver_ms": 59.69
+          }
+        ],
+        "total_ms": 180.39
+      },
+      {
+        "nombre": "primera_conexion_del_diagnostico/museo_biblioteca",
+        "adquisiciones": [
+          {
+            "ms": 0.08,
+            "conexion_nueva": false,
+            "esperando": 0
+          }
+        ],
+        "comandos": [
+          {
+            "fase": "preparacion_segura",
+            "huella_sql": "6bf6641853884ba0",
+            "driver_ms": 66.73
+          },
+          {
+            "fase": "consulta",
+            "huella_sql": "7ac3951ba230caf1",
+            "driver_ms": 60.54
+          },
+          {
+            "fase": "commit",
+            "huella_sql": "79663c1d3b43ceaf",
+            "driver_ms": 58.17
+          }
+        ],
+        "total_ms": 186.15
+      },
+      {
+        "nombre": "primera_conexion_del_diagnostico/ficha",
+        "adquisiciones": [
+          {
+            "ms": 0.07,
+            "conexion_nueva": false,
+            "esperando": 0
+          }
+        ],
+        "comandos": [
+          {
+            "fase": "preparacion_segura",
+            "huella_sql": "6bf6641853884ba0",
+            "driver_ms": 61.63
+          },
+          {
+            "fase": "consulta",
+            "huella_sql": "b4f748c5b4f09562",
+            "driver_ms": 59.01
+          },
+          {
+            "fase": "commit",
+            "huella_sql": "79663c1d3b43ceaf",
+            "driver_ms": 58.68
+          }
+        ],
+        "total_ms": 179.78
+      },
+      {
+        "nombre": "primera_conexion_del_diagnostico/lector",
+        "adquisiciones": [
+          {
+            "ms": 0.09,
+            "conexion_nueva": false,
+            "esperando": 0
+          }
+        ],
+        "comandos": [
+          {
+            "fase": "preparacion_segura",
+            "huella_sql": "6bf6641853884ba0",
+            "driver_ms": 61.68
+          },
+          {
+            "fase": "consulta",
+            "huella_sql": "e9e371b2e43e8403",
+            "driver_ms": 60.59
+          },
+          {
+            "fase": "commit",
+            "huella_sql": "79663c1d3b43ceaf",
+            "driver_ms": 58.45
+          }
+        ],
+        "total_ms": 181.34
+      },
+      {
+        "nombre": "primera_conexion_del_diagnostico/tramites",
+        "adquisiciones": [
+          {
+            "ms": 0.08,
+            "conexion_nueva": false,
+            "esperando": 0
+          }
+        ],
+        "comandos": [
+          {
+            "fase": "preparacion_segura",
+            "huella_sql": "6bf6641853884ba0",
+            "driver_ms": 60.33
+          },
+          {
+            "fase": "consulta",
+            "huella_sql": "84302adaf9360a6b",
+            "driver_ms": 60.05
+          },
+          {
+            "fase": "commit",
+            "huella_sql": "79663c1d3b43ceaf",
+            "driver_ms": 59.18
+          }
+        ],
+        "total_ms": 180.2
+      },
+      {
+        "nombre": "conexion_reutilizada/catalogo",
+        "adquisiciones": [
+          {
+            "ms": 0.06,
+            "conexion_nueva": false,
+            "esperando": 0
+          }
+        ],
+        "comandos": [
+          {
+            "fase": "preparacion_segura",
+            "huella_sql": "6bf6641853884ba0",
+            "driver_ms": 60.58
+          },
+          {
+            "fase": "consulta",
+            "huella_sql": "ce6af4039ca6aa7e",
+            "driver_ms": 63.85
+          },
+          {
+            "fase": "commit",
+            "huella_sql": "79663c1d3b43ceaf",
+            "driver_ms": 58.57
+          }
+        ],
+        "total_ms": 183.25
+      },
+      {
+        "nombre": "conexion_reutilizada/iglesia",
+        "adquisiciones": [
+          {
+            "ms": 0.08,
+            "conexion_nueva": false,
+            "esperando": 0
+          }
+        ],
+        "comandos": [
+          {
+            "fase": "preparacion_segura",
+            "huella_sql": "6bf6641853884ba0",
+            "driver_ms": 60.03
+          },
+          {
+            "fase": "consulta",
+            "huella_sql": "ad7b98f1b86dbf90",
+            "driver_ms": 61.95
+          },
+          {
+            "fase": "commit",
+            "huella_sql": "79663c1d3b43ceaf",
+            "driver_ms": 58.15
+          }
+        ],
+        "total_ms": 180.33
+      },
+      {
+        "nombre": "conexion_reutilizada/museo_biblioteca",
+        "adquisiciones": [
+          {
+            "ms": 0.09,
+            "conexion_nueva": false,
+            "esperando": 0
+          }
+        ],
+        "comandos": [
+          {
+            "fase": "preparacion_segura",
+            "huella_sql": "6bf6641853884ba0",
+            "driver_ms": 64.12
+          },
+          {
+            "fase": "consulta",
+            "huella_sql": "7ac3951ba230caf1",
+            "driver_ms": 59.78
+          },
+          {
+            "fase": "commit",
+            "huella_sql": "79663c1d3b43ceaf",
+            "driver_ms": 58.66
+          }
+        ],
+        "total_ms": 183
+      },
+      {
+        "nombre": "conexion_reutilizada/ficha",
+        "adquisiciones": [
+          {
+            "ms": 0.11,
+            "conexion_nueva": false,
+            "esperando": 0
+          }
+        ],
+        "comandos": [
+          {
+            "fase": "preparacion_segura",
+            "huella_sql": "6bf6641853884ba0",
+            "driver_ms": 73.83
+          },
+          {
+            "fase": "consulta",
+            "huella_sql": "b4f748c5b4f09562",
+            "driver_ms": 62.08
+          },
+          {
+            "fase": "commit",
+            "huella_sql": "79663c1d3b43ceaf",
+            "driver_ms": 58.64
+          }
+        ],
+        "total_ms": 194.86
+      },
+      {
+        "nombre": "conexion_reutilizada/lector",
+        "adquisiciones": [
+          {
+            "ms": 0.04,
+            "conexion_nueva": false,
+            "esperando": 0
+          }
+        ],
+        "comandos": [
+          {
+            "fase": "preparacion_segura",
+            "huella_sql": "6bf6641853884ba0",
+            "driver_ms": 60.09
+          },
+          {
+            "fase": "consulta",
+            "huella_sql": "e9e371b2e43e8403",
+            "driver_ms": 62.92
+          },
+          {
+            "fase": "commit",
+            "huella_sql": "79663c1d3b43ceaf",
+            "driver_ms": 57.93
+          }
+        ],
+        "total_ms": 181.09
+      },
+      {
+        "nombre": "conexion_reutilizada/tramites",
+        "adquisiciones": [
+          {
+            "ms": 0.03,
+            "conexion_nueva": false,
+            "esperando": 0
+          }
+        ],
+        "comandos": [
+          {
+            "fase": "preparacion_segura",
+            "huella_sql": "6bf6641853884ba0",
+            "driver_ms": 60.49
+          },
+          {
+            "fase": "consulta",
+            "huella_sql": "84302adaf9360a6b",
+            "driver_ms": 61.27
+          },
+          {
+            "fase": "commit",
+            "huella_sql": "79663c1d3b43ceaf",
+            "driver_ms": 58.58
+          }
+        ],
+        "total_ms": 180.55
+      }
+    ],
+    "planes": [
+      {
+        "huella_sql": "ce6af4039ca6aa7e",
+        "planning_ms": 0.074,
+        "execution_ms": 0.057
+      },
+      {
+        "huella_sql": "ad7b98f1b86dbf90",
+        "planning_ms": 0.062,
+        "execution_ms": 0.043
+      },
+      {
+        "huella_sql": "7ac3951ba230caf1",
+        "planning_ms": 0.208,
+        "execution_ms": 0.16
+      },
+      {
+        "huella_sql": "b4f748c5b4f09562",
+        "planning_ms": 0.14,
+        "execution_ms": 0.088
+      },
+      {
+        "huella_sql": "e9e371b2e43e8403",
+        "planning_ms": 0.214,
+        "execution_ms": 0.184
+      },
+      {
+        "huella_sql": "84302adaf9360a6b",
+        "planning_ms": 0.118,
+        "execution_ms": 0.075
+      }
+    ],
+    "repeticiones": [
+      {
+        "fase": "preparacion_segura",
+        "huella_sql": "6bf6641853884ba0",
+        "veces": 12,
+        "driver_ms": 751.83
+      },
+      {
+        "fase": "consulta",
+        "huella_sql": "ce6af4039ca6aa7e",
+        "veces": 2,
+        "driver_ms": 124.41
+      },
+      {
+        "fase": "commit",
+        "huella_sql": "79663c1d3b43ceaf",
+        "veces": 12,
+        "driver_ms": 703.62
+      },
+      {
+        "fase": "consulta",
+        "huella_sql": "ad7b98f1b86dbf90",
+        "veces": 2,
+        "driver_ms": 121.47
+      },
+      {
+        "fase": "consulta",
+        "huella_sql": "7ac3951ba230caf1",
+        "veces": 2,
+        "driver_ms": 120.32
+      },
+      {
+        "fase": "consulta",
+        "huella_sql": "b4f748c5b4f09562",
+        "veces": 2,
+        "driver_ms": 121.09
+      },
+      {
+        "fase": "consulta",
+        "huella_sql": "e9e371b2e43e8403",
+        "veces": 2,
+        "driver_ms": 123.51
+      },
+      {
+        "fase": "consulta",
+        "huella_sql": "84302adaf9360a6b",
+        "veces": 2,
+        "driver_ms": 121.32
+      }
+    ]
+  }
+}

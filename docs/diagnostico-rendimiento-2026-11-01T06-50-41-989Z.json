@@ -1,0 +1,25 @@
+{
+  "fecha": "2026-11-01T06:50:41.989Z",
+  "node": "v24.21.0",
+  "alcance": "GET públicos sin sesión, Catedral de Mérida como recorrido representativo",
+  "limites": [
+    "Primera observación no equivale a arranque frío; no se reinician servidores ni Neon.",
+    "Recorrido de peticiones reproduce el código; no es medición de render React ni captura Network del navegador.",
+    "Proxy se mide después de API directa: Neon/pools pueden estar calientes. No restar tiempos como prueba aislada del proxy.",
+    "driver_ms incluye ida/vuelta y servidor; EXPLAIN separa ejecución SQL. Pool propio del diagnóstico, no el pool del servidor."
+  ],
+  "huella_backend": "eec5177244c707e9a96976d72ee1567cc90aaf26f081432bf5665e1af2ddab04",
+  "api_directa": {
+    "resultados": [
+      {
+        "vuelta": "primera_observada",
+        "pasos": [],
+        "error": {
+          "etapa": "conexion",
+          "codigo": "NET_EPERM"
+        }
+      }
+    ],
+    "bloqueado": true
+  }
+}

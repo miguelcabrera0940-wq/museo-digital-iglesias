@@ -1,0 +1,295 @@
+{
+  "fecha": "2026-11-01T20:38:10.324Z",
+  "node": "v24.21.0",
+  "alcance": "GET públicos sin sesión, Catedral de Mérida como recorrido representativo",
+  "limites": [
+    "Primera observación no equivale a arranque frío; no se reinician servidores ni Neon.",
+    "Recorrido de peticiones reproduce el código; no es medición de render React ni captura Network del navegador.",
+    "Proxy se mide después de API directa: Neon/pools pueden estar calientes. No restar tiempos como prueba aislada del proxy.",
+    "driver_ms incluye ida/vuelta y servidor; EXPLAIN separa ejecución SQL. Pool propio del diagnóstico, no el pool del servidor.",
+    "Server-Timing solo numérico: pool_nueva/reutilizada y pool_queue solapan pool; no sumarlos. db_guard incluye red+BEGIN/guardia/SET ROLE, no es CPU SQL pura.",
+    "Pausa de12s sin solicitudes de este diagnóstico, no prueba de inactividad total: navegador/otros clientes pueden usar Express. No fuerza suspensión de Neon.",
+    "Solo reiniciar backend para cargar instrumentación: no se controla un arranque frío de Node/Neon ni se reinicia desde este comando."
+  ],
+  "huella_backend": "b4f381ec8c032c94fbb557ea34befc0d9ef32025ea1a72f7dca38f8a7fc73149",
+  "modo": "mapa_inicial_repetido",
+  "mapa": {
+    "muestras": [
+      {
+        "origen": "api",
+        "fase": "serie_inmediata",
+        "ronda": 1,
+        "ruta": "/api/iglesias?estado=yucatan",
+        "estado": 200,
+        "cabeceras_ms": 1674.16,
+        "cuerpo_ms": 1.45,
+        "total_ms": 1675.6,
+        "bytes": 7167,
+        "server_timing": [
+          {
+            "nombre": "db_init",
+            "ms": 20.505
+          },
+          {
+            "nombre": "pool",
+            "ms": 1404.194
+          },
+          {
+            "nombre": "pool_nueva",
+            "ms": 1404.221
+          },
+          {
+            "nombre": "pool_queue",
+            "ms": 0
+          },
+          {
+            "nombre": "db_guard",
+            "ms": 74.429
+          },
+          {
+            "nombre": "sql_driver",
+            "ms": 79.091
+          },
+          {
+            "nombre": "commit",
+            "ms": 60.926
+          },
+          {
+            "nombre": "api",
+            "ms": 1640.074
+          }
+        ]
+      },
+      {
+        "origen": "api",
+        "fase": "serie_inmediata",
+        "ronda": 2,
+        "ruta": "/api/iglesias?estado=yucatan",
+        "estado": 200,
+        "cabeceras_ms": 185.2,
+        "cuerpo_ms": 0.17,
+        "total_ms": 185.37,
+        "bytes": 7167,
+        "server_timing": [
+          {
+            "nombre": "db_init",
+            "ms": 0.047
+          },
+          {
+            "nombre": "pool",
+            "ms": 0.142
+          },
+          {
+            "nombre": "pool_reutilizada",
+            "ms": 0.151
+          },
+          {
+            "nombre": "pool_queue",
+            "ms": 0
+          },
+          {
+            "nombre": "db_guard",
+            "ms": 59.626
+          },
+          {
+            "nombre": "sql_driver",
+            "ms": 62.004
+          },
+          {
+            "nombre": "commit",
+            "ms": 60.453
+          },
+          {
+            "nombre": "api",
+            "ms": 182.423
+          }
+        ]
+      },
+      {
+        "origen": "api",
+        "fase": "serie_inmediata",
+        "ronda": 3,
+        "ruta": "/api/iglesias?estado=yucatan",
+        "estado": 200,
+        "cabeceras_ms": 186.89,
+        "cuerpo_ms": 0.13,
+        "total_ms": 187.02,
+        "bytes": 7167,
+        "server_timing": [
+          {
+            "nombre": "db_init",
+            "ms": 0.125
+          },
+          {
+            "nombre": "pool",
+            "ms": 0.114
+          },
+          {
+            "nombre": "pool_reutilizada",
+            "ms": 0.121
+          },
+          {
+            "nombre": "pool_queue",
+            "ms": 0
+          },
+          {
+            "nombre": "db_guard",
+            "ms": 67.879
+          },
+          {
+            "nombre": "sql_driver",
+            "ms": 58.731
+          },
+          {
+            "nombre": "commit",
+            "ms": 57.556
+          },
+          {
+            "nombre": "api",
+            "ms": 184.556
+          }
+        ]
+      },
+      {
+        "origen": "api",
+        "fase": "serie_inmediata",
+        "ronda": 4,
+        "ruta": "/api/iglesias?estado=yucatan",
+        "estado": 200,
+        "cabeceras_ms": 177.98,
+        "cuerpo_ms": 0.26,
+        "total_ms": 178.24,
+        "bytes": 7167,
+        "server_timing": [
+          {
+            "nombre": "db_init",
+            "ms": 0.045
+          },
+          {
+            "nombre": "pool",
+            "ms": 0.043
+          },
+          {
+            "nombre": "pool_reutilizada",
+            "ms": 0.047
+          },
+          {
+            "nombre": "pool_queue",
+            "ms": 0
+          },
+          {
+            "nombre": "db_guard",
+            "ms": 59.621
+          },
+          {
+            "nombre": "sql_driver",
+            "ms": 58.66
+          },
+          {
+            "nombre": "commit",
+            "ms": 57.579
+          },
+          {
+            "nombre": "api",
+            "ms": 176.094
+          }
+        ]
+      },
+      {
+        "origen": "api",
+        "fase": "serie_inmediata",
+        "ronda": 5,
+        "ruta": "/api/iglesias?estado=yucatan",
+        "estado": 200,
+        "cabeceras_ms": 186.83,
+        "cuerpo_ms": 0.37,
+        "total_ms": 187.2,
+        "bytes": 7167,
+        "server_timing": [
+          {
+            "nombre": "db_init",
+            "ms": 0.051
+          },
+          {
+            "nombre": "pool",
+            "ms": 0.045
+          },
+          {
+            "nombre": "pool_reutilizada",
+            "ms": 0.049
+          },
+          {
+            "nombre": "pool_queue",
+            "ms": 0
+          },
+          {
+            "nombre": "db_guard",
+            "ms": 59.711
+          },
+          {
+            "nombre": "sql_driver",
+            "ms": 64.193
+          },
+          {
+            "nombre": "commit",
+            "ms": 60.73
+          },
+          {
+            "nombre": "api",
+            "ms": 184.901
+          }
+        ]
+      },
+      {
+        "origen": "api",
+        "fase": "serie_inmediata",
+        "ronda": 6,
+        "ruta": "/api/iglesias?estado=yucatan",
+        "estado": 200,
+        "cabeceras_ms": 184.29,
+        "cuerpo_ms": 0.3,
+        "total_ms": 184.59,
+        "bytes": 7167,
+        "server_timing": [
+          {
+            "nombre": "db_init",
+            "ms": 0.047
+          },
+          {
+            "nombre": "pool",
+            "ms": 0.048
+          },
+          {
+            "nombre": "pool_reutilizada",
+            "ms": 0.052
+          },
+          {
+            "nombre": "pool_queue",
+            "ms": 0
+          },
+          {
+            "nombre": "db_guard",
+            "ms": 60.031
+          },
+          {
+            "nombre": "sql_driver",
+            "ms": 61.684
+          },
+          {
+            "nombre": "commit",
+            "ms": 60.468
+          },
+          {
+            "nombre": "api",
+            "ms": 182.407
+          }
+        ]
+      }
+    ],
+    "error": {
+      "etapa": "conexion",
+      "codigo": "NET_ECONNREFUSED"
+    },
+    "bloqueado": false
+  }
+}

@@ -1,0 +1,178 @@
+/* Museo y Biblioteca: estantería, ficha y lector. Paleta y tamaños vienen de tokens.css. */
+
+.boton:disabled { opacity: .4; cursor: not-allowed; }
+.boton svg { flex: none; }
+.boton { gap: 8px; }
+.sr-solo { white-space: nowrap; }
+
+/* Tonos compartidos por lomo y portada */
+.tono-0 { --color: var(--vino); }
+.tono-1 { --color: var(--madera-media); }
+.tono-2 { --color: var(--tinta); }
+.tono-3 { --color: var(--piedra); --tinta-lomo: var(--tinta); }
+
+/* Selector de categorías */
+.selector-categoria { display: flex; flex-wrap: wrap; gap: var(--sep); margin: 20px 0; }
+.selector-categoria .boton { flex: 1 1 220px; font-family: var(--fuente-titulo); font-size: 1.15rem; min-height: 64px; }
+.cuenta { font-family: var(--fuente-cuerpo); font-size: 1rem; padding: 2px 10px; border-radius: 99px; background: var(--piedra); color: var(--tinta); }
+.boton[aria-pressed='true'] .cuenta { background: var(--dorado); }
+
+/* Estantería: tablas continuas de madera; cada hilera mide --a y deja --g para la tabla */
+.estante-marco {
+  background: repeating-linear-gradient(90deg, rgba(255, 255, 255, .02) 0 3px, transparent 3px 11px), var(--madera-oscura);
+  border: 8px solid var(--madera-media);
+  border-radius: 12px;
+  box-shadow: 0 0 0 2px var(--dorado), inset 0 0 60px rgba(0, 0, 0, .6), 0 12px 28px rgba(46, 27, 16, .3);
+  overflow: hidden;
+}
+.estante-cornisa { height: 28px; background: linear-gradient(var(--madera-media), var(--madera-oscura)); border-bottom: 2px solid rgba(0, 0, 0, .5); }
+.estante {
+  --a: 270px; --g: 18px;
+  display: flex; flex-wrap: wrap; align-content: flex-start; justify-content: center; column-gap: 6px; row-gap: var(--g);
+  padding: 0 20px var(--g);
+  background:
+    linear-gradient(to bottom,
+      transparent var(--a),
+      rgba(184, 137, 43, .6) var(--a) calc(var(--a) + 2px),
+      var(--madera-media) calc(var(--a) + 2px) calc(var(--a) + 14px),
+      transparent calc(var(--a) + 14px)) 0 0 / 100% calc(var(--a) + var(--g)) repeat-y;
+}
+@media (min-width: 900px) { .estante { --a: 320px; --k: 1.45; padding: 0 36px var(--g); column-gap: 8px; } }
+.estante li { height: var(--a); display: flex; align-items: flex-end; }
+.estante-marco > .estado { color: var(--pergamino); }
+
+.lomo, .objeto {
+  display: flex; flex-direction: column; align-items: center; gap: 8px;
+  text-decoration: none; font-family: var(--fuente-titulo); font-weight: 600; line-height: 1.25;
+  transition: transform .3s var(--ease), box-shadow .3s var(--ease);
+}
+.lomo:hover, .lomo:focus-visible, .objeto:hover, .objeto:focus-visible { transform: translateY(calc(var(--mov) * -14px)); }
+.lomo:focus-visible, .objeto:focus-visible { outline: 4px solid var(--dorado); outline-offset: 4px; }
+.lomo:active, .objeto:active { transform: translateY(calc(var(--mov) * -6px)) scale(.985); }
+.lomo:hover, .lomo:focus-visible { box-shadow: inset -5px 0 7px rgba(0, 0, 0, .35), inset 2px 0 2px rgba(255, 255, 255, .14), 6px 12px 16px rgba(0, 0, 0, .5), 0 0 0 2px var(--dorado); }
+.objeto:hover, .objeto:focus-visible { box-shadow: inset 0 0 0 4px rgba(46, 27, 16, .16), 6px 12px 18px rgba(0, 0, 0, .5), 0 0 0 2px var(--dorado); }
+
+.lomo {
+  position: relative; overflow: hidden;
+  width: calc(var(--ancho) * var(--k, 1)); min-width: 56px; height: calc(var(--a) * var(--alto));
+  padding: 30px 6px 26px;
+  color: var(--tinta-lomo, var(--pergamino));
+  border: 1px solid rgba(245, 237, 220, .3); border-radius: 4px 4px 2px 2px;
+  background:
+    linear-gradient(var(--dorado), var(--dorado)) 0 14px / 100% 3px no-repeat,
+    linear-gradient(var(--dorado), var(--dorado)) 0 calc(100% - 16px) / 100% 3px no-repeat,
+    var(--color);
+  box-shadow: inset -5px 0 7px rgba(0, 0, 0, .35), inset 2px 0 2px rgba(255, 255, 255, .14), 3px 0 5px rgba(0, 0, 0, .45);
+}
+.lomo-titulo { writing-mode: vertical-rl; flex: 1; min-height: 0; overflow: hidden; font-size: 1rem; }
+/* Reservado: rayado y candado, no solo atenuado */
+.lomo[data-reservado] {
+  background:
+    linear-gradient(var(--dorado), var(--dorado)) 0 14px / 100% 3px no-repeat,
+    linear-gradient(var(--dorado), var(--dorado)) 0 calc(100% - 16px) / 100% 3px no-repeat,
+    repeating-linear-gradient(45deg, rgba(0, 0, 0, .22) 0 6px, transparent 6px 12px),
+    var(--color);
+  filter: saturate(.6);
+}
+
+/* Objetos: nicho de arco sobre la tabla */
+.objeto {
+  justify-content: flex-end; text-align: center; width: 140px; margin: 0 12px;
+  height: calc(var(--a) * var(--alto) * .72); padding: 16px 10px 16px;
+  background: var(--piedra); color: var(--tinta); font-size: .95rem;
+  border: 3px solid var(--dorado); border-radius: 70px 70px 4px 4px;
+  box-shadow: inset 0 0 0 4px rgba(46, 27, 16, .16), 3px 0 6px rgba(0, 0, 0, .45);
+}
+.objeto .lomo-titulo { writing-mode: horizontal-tb; flex: none; max-height: 5.2em; }
+.objeto[data-reservado] { border-style: dashed; filter: saturate(.6); }
+
+.museo h1 { margin-top: 20px; }
+.nota-reservado { display: flex; align-items: center; gap: var(--sep); margin-top: 20px; max-width: 70ch; }
+.nota-reservado svg { flex: none; color: var(--oro-claro); }
+
+/* Ficha */
+.ficha { display: grid; gap: 28px; align-items: start; }
+@media (min-width: 900px) { .ficha { grid-template-columns: minmax(340px, 540px) 1fr; gap: 56px; } }
+.ficha-escena {
+  display: grid; place-items: center; padding: 40px 24px; min-height: min(62vh, 520px); perspective: 1600px;
+  background: radial-gradient(ellipse at 50% 35%, rgba(184, 137, 43, .25), transparent 65%), var(--madera-oscura);
+  border: 6px solid var(--madera-media); border-radius: 12px; box-shadow: 0 0 0 2px var(--dorado);
+}
+.portada-libro {
+  display: grid; place-items: center; align-content: center; gap: 12px; text-align: center;
+  width: min(100%, 280px); aspect-ratio: 3 / 4; padding: 36px 28px;
+  background: var(--color); color: var(--tinta-lomo, var(--pergamino));
+  font-family: var(--fuente-titulo); font-weight: 700; font-size: 1.4rem; line-height: 1.25;
+  border-radius: 4px 10px 10px 4px;
+  outline: 2px solid var(--dorado); outline-offset: -14px;
+  box-shadow: inset 10px 0 12px rgba(0, 0, 0, .35), 14px 16px 24px rgba(0, 0, 0, .5);
+}
+.portada-objeto {
+  display: grid; place-items: end center; text-align: center; width: min(100%, 220px); aspect-ratio: 3 / 4; padding: 24px 16px;
+  background: var(--piedra); color: var(--tinta); font-family: var(--fuente-titulo); font-weight: 700; font-size: 1.25rem;
+  border: 4px solid var(--dorado); border-radius: 110px 110px 4px 4px;
+  box-shadow: inset 0 0 0 6px rgba(46, 27, 16, .16), 12px 14px 22px rgba(0, 0, 0, .5);
+}
+.portada-img { max-width: 100%; border-radius: 4px; box-shadow: 14px 16px 24px rgba(0, 0, 0, .5); }
+.ficha-texto { display: grid; gap: var(--sep); justify-items: start; max-width: 62ch; }
+.ficha-texto h1, .ficha-texto p { margin: 0; }
+.ficha-texto h1 { margin-top: 8px; font-size: clamp(1.9rem, 4vw, 2.8rem); }
+.ficha-meta { font-weight: 600; color: var(--oro-claro); }
+.ficha-fuente { font-size: 1rem; }
+.etiqueta-ejemplo { font-size: 1rem; padding: 4px 12px; border: 1px solid var(--madera-media); border-radius: 99px; }
+.reservado {
+  display: flex; gap: var(--sep); align-items: flex-start; padding: 16px 20px; margin-top: 8px;
+  background: var(--piedra); border: 2px solid var(--vino); border-radius: 8px;
+}
+.reservado svg { flex: none; margin-top: 4px; color: var(--vino); }
+.reservado p { margin-top: 4px; }
+
+/* Lector: libro abierto sobre fondo de madera */
+.lector { background: var(--madera-oscura); min-height: calc(100vh - 56px); padding: 16px 16px 40px; }
+.lector .boton { background: var(--madera-media); color: var(--pergamino); border-color: var(--dorado); }
+.lector .boton:hover:not(:disabled) { background: var(--vino); border-color: var(--dorado); }
+.lector-barra { display: flex; flex-wrap: wrap; align-items: center; gap: 16px 24px; max-width: 1100px; margin: 0 auto; color: var(--pergamino); }
+.lector-barra h1 { font-size: clamp(1.3rem, 3vw, 1.8rem); margin: 0; }
+.lector-barra p { margin: 0; color: var(--piedra); font-size: 1rem; }
+
+.libro {
+  display: grid; grid-template-columns: 1fr; max-width: 1100px; margin: 20px auto;
+  padding: 14px; background: var(--vino); border-radius: 10px; touch-action: pan-y;
+  box-shadow: 0 0 0 2px var(--dorado), 0 20px 44px rgba(0, 0, 0, .55);
+}
+@media (min-width: 900px) { .libro { grid-template-columns: 1fr 1fr; padding: 18px 22px; } }
+.hoja {
+  position: relative; min-height: 58vh; padding: 36px 28px 64px; font-size: 1.05rem;
+  background: radial-gradient(ellipse at 50% 45%, var(--pergamino) 55%, var(--piedra) 120%);
+  color: var(--tinta); font-family: var(--fuente-titulo); line-height: 1.7;
+  border-radius: 4px;
+}
+@media (min-width: 900px) {
+  .hoja { min-height: 520px; padding: 44px 44px 64px; }
+  .hoja-izq { border-radius: 6px 0 0 6px; box-shadow: inset -34px 0 28px -26px rgba(46, 27, 16, .55); }
+  .hoja-der { border-radius: 0 6px 6px 0; box-shadow: inset 34px 0 28px -26px rgba(46, 27, 16, .55); }
+}
+.hoja-texto { white-space: pre-wrap; max-width: 60ch; margin: 0 0 var(--sep); }
+.hoja img { max-width: 100%; margin-bottom: var(--sep); }
+.hoja-numero { position: absolute; left: 0; right: 0; bottom: 20px; text-align: center; color: var(--madera-media); font-style: italic; }
+
+.lector-nav { display: grid; grid-template-columns: 1fr 1fr; gap: var(--sep); align-items: center; max-width: 1100px; margin: 0 auto; }
+.lector-nav p { grid-column: 1 / -1; order: -1; margin: 0; text-align: center; color: var(--pergamino); }
+.lector-nav .boton:last-child { justify-self: stretch; }
+@media (min-width: 900px) {
+  .lector-nav { grid-template-columns: 1fr auto 1fr; }
+  .lector-nav p { grid-column: auto; order: 0; }
+  .lector-nav .boton { justify-self: start; min-width: 180px; }
+  .lector-nav .boton:last-child { justify-self: end; }
+}
+
+
+/* Objetos con fotografía: la imagen conserva su proporción (contain) dentro del nicho */
+.objeto.con-foto { width: 188px; height: calc(var(--a) * .96); padding: 52px 8px 12px; justify-content: flex-start; }
+.objeto-foto { width: 100%; height: calc(var(--a) * .5); object-fit: contain; background: var(--madera-oscura); border-radius: 4px; flex: none; }
+.objeto.con-foto .lomo-titulo { font-size: .88rem; max-height: 5.6em; overflow: hidden; }
+.ficha-texto .boton-principal { min-width: 200px; font-size: 1.15rem; }
+.portada-img { max-height: 70vh; width: auto; object-fit: contain; }
+.ficha-fuente { overflow-wrap: anywhere; }
+.ficha-fuente a { color: var(--vino); }
+.pendiente-objetos { margin-top: 20px; padding: 12px 16px; max-width: 70ch; background: var(--piedra); border: 2px dashed var(--madera-media); border-radius: 8px; }

@@ -1,0 +1,68 @@
+/* Misas y actividades. Lectura clara para adultos mayores: letra grande, contraste alto, una idea por bloque. */
+
+.agenda h1 { margin-top: 20px; }
+.agenda-accesos { display: flex; flex-wrap: wrap; gap: var(--sep); margin: 20px 0; }
+.agenda-accesos .boton { flex: 1 1 240px; font-size: 1.1rem; }
+.agenda-accesos .boton[aria-current='date'], .agenda-accesos .boton[aria-expanded='true'] { background: var(--dorado); border-color: var(--dorado); color: var(--carbon); }
+
+/* Elegir otro día */
+.agenda-panel { padding: 20px; margin-bottom: 20px; background: var(--piedra); border: 2px solid var(--madera-media); border-radius: 8px; display: grid; gap: 20px; }
+.dias { display: grid; grid-template-columns: repeat(auto-fit, minmax(84px, 1fr)); gap: var(--sep); }
+.dias .boton { flex-direction: column; gap: 0; min-height: 72px; width: 100%; padding: 6px; line-height: 1.2; }
+.dias .boton strong { font-family: var(--fuente-titulo); font-size: 1.5rem; }
+.dias .boton[aria-current='date'] { background: var(--vino); border-color: var(--vino); color: var(--pergamino); }
+.campo-fecha { display: grid; gap: 6px; font-weight: 600; max-width: 320px; }
+.campo-fecha input { min-height: var(--control); padding: 0 12px; font: inherit; color: var(--tinta); background: var(--pergamino); border: 2px solid var(--madera-media); border-radius: 8px; }
+
+/* Fecha visible: hoja de calendario */
+.fecha-banner { display: grid; gap: var(--sep); align-items: center; padding: 20px 0; margin-bottom: 8px; border-top: 3px solid var(--dorado); border-bottom: 1px solid var(--madera-media); grid-template-columns: 1fr 1fr; grid-template-areas: 'centro centro' 'ant sig'; }
+.fecha-banner > :first-child { grid-area: ant; }
+.fecha-banner > :last-child { grid-area: sig; }
+.fecha-centro { grid-area: centro; display: flex; align-items: center; gap: 20px; }
+.fecha-centro h2 { margin: 0; font-size: clamp(1.4rem, 3.4vw, 2rem); text-wrap: balance; }
+.fecha-hoy { margin: 4px 0 0; font-weight: 700; color: var(--oro-claro); }
+.hoja-fecha { color: var(--tinta); flex: none; width: 92px; border: 3px solid var(--madera-media); border-radius: 10px; overflow: hidden; text-align: center; background: var(--pergamino); box-shadow: 0 6px 14px rgba(46, 27, 16, .25); }
+.hoja-fecha span { display: block; padding: 2px 0; background: var(--vino); color: var(--pergamino); font-weight: 700; text-transform: capitalize; }
+.hoja-fecha strong { display: block; font-family: var(--fuente-titulo); font-size: 2.6rem; line-height: 1.25; }
+@media (min-width: 900px) {
+  .fecha-banner { grid-template-columns: auto 1fr auto; grid-template-areas: 'ant centro sig'; }
+  .fecha-centro { justify-content: center; }
+}
+
+/* Bloques */
+.agenda-bloque { margin-top: 32px; }
+.agenda-bloque h2 { margin-bottom: 4px; }
+.agenda-aclara { max-width: 60ch; color: var(--suave); }
+.agenda-vacio { max-width: 60ch; padding: 16px 20px; background: var(--piedra); border: 2px dashed var(--madera-media); border-radius: 8px; }
+.agenda-vacio p { margin-bottom: 6px; }
+
+.horas { max-width: 640px; }
+.horas li { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 20px; padding: 12px 0; border-bottom: 1px solid rgba(201, 162, 74, .28); }
+.horas time { font-family: var(--fuente-titulo); font-size: 1.7rem; font-weight: 700; min-width: 8ch; }
+
+.semana { margin-top: 20px; max-width: 640px; }
+.semana summary { display: flex; align-items: center; min-height: var(--control); padding: 0 16px; font-weight: 600; cursor: pointer; border: 2px solid rgba(201, 162, 74, .65); border-radius: 8px; background: var(--nogal-2); color: var(--pergamino); }
+.semana[open] summary { background: var(--dorado); border-color: var(--dorado); color: var(--carbon); }
+.semana dl { margin: 0; padding: 8px 4px; }
+.semana dl > div { display: grid; grid-template-columns: 8.5em 1fr; gap: 12px; padding: 10px 0; border-bottom: 1px solid rgba(201, 162, 74, .22); }
+.semana dt { font-weight: 700; }
+.semana dd { margin: 0; }
+@media (max-width: 480px) { .semana dl > div { grid-template-columns: 1fr; gap: 0; } }
+
+.actividades { max-width: 760px; }
+.actividades li { display: grid; gap: 4px 24px; padding: 16px 0; border-bottom: 1px solid rgba(201, 162, 74, .28); }
+.act-hora { margin: 0; font-family: var(--fuente-titulo); font-size: 1.3rem; font-weight: 700; }
+.actividades h3 { margin: 0 0 2px; font-size: 1.3rem; }
+.actividades p { margin: 0 0 6px; }
+.act-tipo { font-weight: 600; color: var(--oro-claro); }
+.act-visitas { padding: 8px 12px; background: var(--piedra); border-radius: 8px; }
+
+/* Ajustes tras revisar capturas */
+.agenda-bloque h2 { font-size: 1.6rem; }
+.agenda .etiqueta-ejemplo { display: inline-block; margin-top: 12px; }
+.fecha-banner .boton { padding: 0 12px; }
+.horas, .semana, .actividades, .agenda-vacio, .agenda-aclara { max-width: 760px; }
+@media (max-width: 639px) {
+  .dias { grid-template-columns: repeat(3, 1fr); }
+  .dias li:last-child:nth-child(3n + 1) { grid-column: 1 / -1; }
+}

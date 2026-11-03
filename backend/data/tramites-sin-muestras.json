@@ -1,0 +1,149 @@
+{
+  "version": 1,
+  "iglesias": [
+    {
+      "slug": "catedral",
+      "informacion": {},
+      "materiales": [],
+      "horarios": [],
+      "tramites": [
+        {
+          "tipo": "bautizos",
+          "cambios": {
+            "requisitos": [],
+            "estado_verificacion": "por_confirmar"
+          }
+        },
+        {
+          "tipo": "bodas",
+          "cambios": {
+            "requisitos": [],
+            "estado_verificacion": "por_confirmar"
+          }
+        },
+        {
+          "tipo": "misas_difuntos",
+          "cambios": {
+            "requisitos": [],
+            "estado_verificacion": "por_confirmar"
+          }
+        },
+        {
+          "tipo": "otros",
+          "cambios": {
+            "requisitos": [],
+            "estado_verificacion": "por_confirmar"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "tercera-orden",
+      "informacion": {},
+      "materiales": [],
+      "horarios": [],
+      "tramites": [
+        {
+          "tipo": "bautizos",
+          "cambios": {
+            "requisitos": [],
+            "estado_verificacion": "por_confirmar"
+          }
+        },
+        {
+          "tipo": "bodas",
+          "cambios": {
+            "requisitos": [],
+            "estado_verificacion": "por_confirmar"
+          }
+        },
+        {
+          "tipo": "misas_difuntos",
+          "cambios": {
+            "requisitos": [],
+            "estado_verificacion": "por_confirmar"
+          }
+        },
+        {
+          "tipo": "otros",
+          "cambios": {
+            "requisitos": [],
+            "estado_verificacion": "por_confirmar"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "santa-lucia",
+      "informacion": {},
+      "materiales": [],
+      "horarios": [],
+      "tramites": [
+        {
+          "tipo": "bautizos",
+          "cambios": {
+            "requisitos": [],
+            "estado_verificacion": "por_confirmar"
+          }
+        },
+        {
+          "tipo": "bodas",
+          "cambios": {
+            "requisitos": [],
+            "estado_verificacion": "por_confirmar"
+          }
+        },
+        {
+          "tipo": "misas_difuntos",
+          "cambios": {
+            "requisitos": [],
+            "estado_verificacion": "por_confirmar"
+          }
+        },
+        {
+          "tipo": "otros",
+          "cambios": {
+            "requisitos": [],
+            "estado_verificacion": "por_confirmar"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "santa-ana",
+      "informacion": {},
+      "materiales": [],
+      "horarios": [],
+      "tramites": [
+        {
+          "tipo": "bautizos",
+          "cambios": {
+            "requisitos": [],
+            "estado_verificacion": "por_confirmar"
+          }
+        },
+        {
+          "tipo": "bodas",
+          "cambios": {
+            "requisitos": [],
+            "estado_verificacion": "por_confirmar"
+          }
+        },
+        {
+          "tipo": "misas_difuntos",
+          "cambios": {
+            "requisitos": [],
+            "estado_verificacion": "por_confirmar"
+          }
+        },
+        {
+          "tipo": "otros",
+          "cambios": {
+            "requisitos": [],
+            "estado_verificacion": "por_confirmar"
+          }
+        }
+      ]
+    }
+  ]
+}

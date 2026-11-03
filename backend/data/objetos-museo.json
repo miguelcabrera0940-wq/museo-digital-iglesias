@@ -1,0 +1,196 @@
+{
+  "version": 1,
+  "descripcion": "Lote de objetos patrimoniales del museo (tipo objeto, categoria objetos). Preparado por Claude Code el 31 de octubre de 2026; NO aplicado en Neon. creditos_imagen es informativo: el contrato no tiene campo de créditos por imagen y los créditos viajan también dentro de fuente.",
+  "objetos": [
+    {
+      "clave": "catedral-cruz-atrial",
+      "slug_iglesia": "catedral",
+      "tipo": "objeto",
+      "categoria_id": "objetos",
+      "titulo": "Cruz del atrio de la Catedral de San Ildefonso",
+      "descripcion_publica": "Cruz de piedra labrada sobre un pedestal de base cuadrada, con fuste en forma de balaustre y remate esférico, en el atrio de la catedral. Según Wikipedia, desde esta cruz se medían las distancias a otras poblaciones de la región. En las fuentes consultadas no aparecen la fecha ni el autor de la pieza, por lo que no se indican.",
+      "imagen_publica": "/imagenes/catedral-cruz-atrial.jpg",
+      "fuente": "Wikipedia en español, «Catedral de San Ildefonso (Mérida)» (consultado el 31 de octubre de 2026). Fotografía de Wikimedia Commons: «Cruz del Atrio de la Catedral de San Idelfonso, Mérida, Yucatán (01).jpg», de Inri, licencia CC0 (https://creativecommons.org/publicdomain/zero/1.0/); origen: https://commons.wikimedia.org/wiki/File:Cruz_del_Atrio_de_la_Catedral_de_San_Idelfonso,_M%C3%A9rida,_Yucat%C3%A1n_(01).jpg.",
+      "es_ejemplo": false,
+      "clase_contenido": "objeto_patrimonial",
+      "creditos_imagen": {
+        "autor": "Inri",
+        "licencia": "CC0",
+        "enlace_licencia": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "enlace_original": "https://commons.wikimedia.org/wiki/File:Cruz_del_Atrio_de_la_Catedral_de_San_Idelfonso,_M%C3%A9rida,_Yucat%C3%A1n_(01).jpg",
+        "titulo_original": "Cruz del Atrio de la Catedral de San Idelfonso, Mérida, Yucatán (01).jpg"
+      }
+    },
+    {
+      "clave": "catedral-placa-arquidiocesis",
+      "slug_iglesia": "catedral",
+      "tipo": "objeto",
+      "categoria_id": "objetos",
+      "titulo": "Placa de la erección de la arquidiócesis de Yucatán",
+      "descripcion_publica": "Placa de mármol con escudos y una inscripción dentro de la catedral. La inscripción alude al papa Pío X, a la elevación del antiguo obispado de Yucatán a arquidiócesis y a Martín Tritschler y Córdova, su primer arzobispo. Según la historia de la arquidiócesis, la bula «Quum rei sacrae» de Pío X es del 11 de noviembre de 1906; la catedral de San Ildefonso es la sede metropolitana. No se transcribe la placa completa ni se confirma la fecha de su colocación.",
+      "imagen_publica": "/imagenes/catedral-placa-arquidiocesis.jpg",
+      "fuente": "Texto de la placa visible en la fotografía y Wikipedia en español, «Arquidiócesis de Yucatán» (consultado el 31 de octubre de 2026). Fotografía de Wikimedia Commons: «Catedral de Mérida (San Ildefonso) Mérida, Yucatán, México - 3.jpg», de Catedrales  e Iglesias/Cathedrals and Churches, licencia CC BY 2.0 (https://creativecommons.org/licenses/by/2.0); origen: https://commons.wikimedia.org/wiki/File:Catedral_de_M%C3%A9rida_(San_Ildefonso)_M%C3%A9rida,_Yucat%C3%A1n,_M%C3%A9xico_-_3.jpg.",
+      "es_ejemplo": false,
+      "clase_contenido": "objeto_patrimonial",
+      "creditos_imagen": {
+        "autor": "Catedrales  e Iglesias/Cathedrals and Churches",
+        "licencia": "CC BY 2.0",
+        "enlace_licencia": "https://creativecommons.org/licenses/by/2.0",
+        "enlace_original": "https://commons.wikimedia.org/wiki/File:Catedral_de_M%C3%A9rida_(San_Ildefonso)_M%C3%A9rida,_Yucat%C3%A1n,_M%C3%A9xico_-_3.jpg",
+        "titulo_original": "Catedral de Mérida (San Ildefonso) Mérida, Yucatán, México - 3.jpg"
+      }
+    },
+    {
+      "clave": "tercera-orden-vestigio-maya",
+      "slug_iglesia": "tercera-orden",
+      "tipo": "objeto",
+      "categoria_id": "objetos",
+      "titulo": "Piedra labrada maya en el muro de la Iglesia de Jesús",
+      "descripcion_publica": "Piedra labrada que perteneció a un edificio de la antigua población maya de T'Hó, sobre la cual se fundó Mérida en 1542. Se muestra incrustada en el muro de la iglesia, en la calle 59 entre 60 y 58. La fuente no precisa a qué edificio perteneció, su fecha ni qué representa el relieve, por lo que esos datos quedan por confirmar.",
+      "imagen_publica": "/imagenes/tercera-orden-vestigio-maya.jpg",
+      "fuente": "Descripción de la fotografía en Wikimedia Commons (Inri) y fundación de Mérida según Wikipedia en español, «Catedral de San Ildefonso (Mérida)» (consultado el 31 de octubre de 2026). Fotografía de Wikimedia Commons: «Vestigios mayas en la Iglesia de la 3ª Orden, Mérida, Yucatán (01).jpg», de Inri, licencia Public domain (https://commons.wikimedia.org/wiki/File:Vestigios_mayas_en_la_Iglesia_de_la_3%C2%AA_Orden,_M%C3%A9rida,_Yucat%C3%A1n_(01).jpg); origen: https://commons.wikimedia.org/wiki/File:Vestigios_mayas_en_la_Iglesia_de_la_3%C2%AA_Orden,_M%C3%A9rida,_Yucat%C3%A1n_(01).jpg.",
+      "es_ejemplo": false,
+      "clase_contenido": "objeto_patrimonial",
+      "creditos_imagen": {
+        "autor": "Inri",
+        "licencia": "Public domain",
+        "enlace_licencia": "https://commons.wikimedia.org/wiki/File:Vestigios_mayas_en_la_Iglesia_de_la_3%C2%AA_Orden,_M%C3%A9rida,_Yucat%C3%A1n_(01).jpg",
+        "enlace_original": "https://commons.wikimedia.org/wiki/File:Vestigios_mayas_en_la_Iglesia_de_la_3%C2%AA_Orden,_M%C3%A9rida,_Yucat%C3%A1n_(01).jpg",
+        "titulo_original": "Vestigios mayas en la Iglesia de la 3ª Orden, Mérida, Yucatán (01).jpg"
+      }
+    },
+    {
+      "clave": "catedral-campeche-altar-mayor",
+      "slug_iglesia": "catedral-campeche",
+      "tipo": "objeto",
+      "categoria_id": "objetos",
+      "titulo": "Altar mayor y tabernáculo de plata de la Catedral de Campeche",
+      "descripcion_publica": "Altar mayor de forma piramidal con un retablo de mármol rosa y gris con imágenes de santos y un tabernáculo de plata del siglo XVIII, donado en 1821. En el presbiterio hay doce sitiales para los apóstoles, que se usan en Semana Santa; el piso es de mármol blanco y negro y el zócalo del presbiterio lleva azulejos de Puebla. Los autores del retablo no constan en la fuente consultada.",
+      "imagen_publica": "/imagenes/catedral-campeche-altar-mayor.jpg",
+      "fuente": "Wikipedia en español, «Catedral de Campeche» (consultado el 31 de octubre de 2026). Fotografía de Wikimedia Commons: «Catedral de Campeche 09.JPG», de Dge, licencia CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0); origen: https://commons.wikimedia.org/wiki/File:Catedral_de_Campeche_09.JPG.",
+      "es_ejemplo": false,
+      "clase_contenido": "objeto_patrimonial",
+      "creditos_imagen": {
+        "autor": "Dge",
+        "licencia": "CC BY-SA 4.0",
+        "enlace_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "enlace_original": "https://commons.wikimedia.org/wiki/File:Catedral_de_Campeche_09.JPG",
+        "titulo_original": "Catedral de Campeche 09.JPG"
+      }
+    },
+    {
+      "clave": "catedral-campeche-portada",
+      "slug_iglesia": "catedral-campeche",
+      "tipo": "objeto",
+      "categoria_id": "objetos",
+      "titulo": "Portada principal de la Catedral de Campeche",
+      "descripcion_publica": "Portada de dos cuerpos. La Puerta Mayor está flanqueada por esculturas de san Pedro y san Pablo; la ventana del coro, de arco trilobulado, lleva una Virgen de la Concepción, y en los nichos laterales están san Francisco de Asís y santo Domingo de Guzmán. Remata en un escudo con insignias pontificias y a los lados se alzan las dos torres. Las obras de la etapa principal terminaron en 1760; la torre «La Campechana» es de 1849-1850.",
+      "imagen_publica": "/imagenes/catedral-campeche-exterior.jpg",
+      "fuente": "Wikipedia en español, «Catedral de Campeche» (consultado el 31 de octubre de 2026). Fotografía de Wikimedia Commons: «Catedral de Campeche Fachada.jpg», de Cass D.arq, licencia CC BY 4.0 (https://creativecommons.org/licenses/by/4.0); origen: https://commons.wikimedia.org/wiki/File:Catedral_de_Campeche_Fachada.jpg.",
+      "es_ejemplo": false,
+      "clase_contenido": "objeto_patrimonial",
+      "creditos_imagen": {
+        "autor": "Cass D.arq",
+        "licencia": "CC BY 4.0",
+        "enlace_licencia": "https://creativecommons.org/licenses/by/4.0",
+        "enlace_original": "https://commons.wikimedia.org/wiki/File:Catedral_de_Campeche_Fachada.jpg",
+        "titulo_original": "Catedral de Campeche Fachada.jpg"
+      }
+    },
+    {
+      "clave": "dulce-nombre-jesus-espadana",
+      "slug_iglesia": "dulce-nombre-jesus",
+      "tipo": "objeto",
+      "categoria_id": "objetos",
+      "titulo": "Espadaña con campanas del Templo del Dulce Nombre de Jesús",
+      "descripcion_publica": "Remate de la fachada amarilla del templo, con campanas a la vista. Las reseñas consultadas destacan la fachada amarilla y sus grandes contrafuertes, pero no describen la espadaña ni dan su fecha o autor; esos datos quedan por confirmar.",
+      "imagen_publica": "/imagenes/dulce-nombre-jesus-espadana.jpg",
+      "fuente": "Ryo, «Iglesia del Dulce Nombre de Jesús» y PorEsto!, 6 de agosto de 2024 (consultados el 31 de octubre de 2026); la espadaña se describe a partir de la fotografía. Fotografía de Wikimedia Commons: «Church, Dulce Nombre de Jesus, Campeche, Mexico.jpg», de Donna Yates, licencia CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0); origen: https://commons.wikimedia.org/wiki/File:Church,_Dulce_Nombre_de_Jesus,_Campeche,_Mexico.jpg.",
+      "es_ejemplo": false,
+      "clase_contenido": "objeto_patrimonial",
+      "creditos_imagen": {
+        "autor": "Donna Yates",
+        "licencia": "CC BY-SA 4.0",
+        "enlace_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "enlace_original": "https://commons.wikimedia.org/wiki/File:Church,_Dulce_Nombre_de_Jesus,_Campeche,_Mexico.jpg",
+        "titulo_original": "Church, Dulce Nombre de Jesus, Campeche, Mexico.jpg"
+      }
+    },
+    {
+      "clave": "catedral-puebla-altar-reyes",
+      "slug_iglesia": "catedral-puebla",
+      "tipo": "objeto",
+      "categoria_id": "objetos",
+      "titulo": "Altar de los Reyes de la Catedral de Puebla",
+      "descripcion_publica": "Capilla-altar con cúpula sobre pechinas, retablo principal barroco de columnas salomónicas, dos retablos laterales y un sagrario con una imagen de Nuestra Señora de la Defensa en un nicho de cristal. Los nichos laterales muestran reyes y reinas santos, como Luis IX de Francia, santa Isabel de Hungría y Fernando III. El retablo principal lo hizo el maestro Lucas Méndez bajo la dirección de Pedro García Ferrer, a partir de un boceto de Sebastián de Arteaga; el proyecto se atribuye a Juan Martínez Montañés. La pintura de la cúpula, de Cristóbal de Villalpando, es de 1688 y representa el triunfo de la Eucaristía.",
+      "imagen_publica": "/imagenes/catedral-puebla-altar-reyes.jpg",
+      "fuente": "Wikipedia en español, «Catedral de Puebla» (consultado el 31 de octubre de 2026); la propia fuente no aclara qué había en la cúpula antes de 1688. Fotografía de Wikimedia Commons: «Retablo de los Reyes de la Catedral de Puebla.JPG», de Luisalvaz, licencia CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0); origen: https://commons.wikimedia.org/wiki/File:Retablo_de_los_Reyes_de_la_Catedral_de_Puebla.JPG.",
+      "es_ejemplo": false,
+      "clase_contenido": "objeto_patrimonial",
+      "creditos_imagen": {
+        "autor": "Luisalvaz",
+        "licencia": "CC BY-SA 4.0",
+        "enlace_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "enlace_original": "https://commons.wikimedia.org/wiki/File:Retablo_de_los_Reyes_de_la_Catedral_de_Puebla.JPG",
+        "titulo_original": "Retablo de los Reyes de la Catedral de Puebla.JPG"
+      }
+    },
+    {
+      "clave": "catedral-puebla-altar-mayor",
+      "slug_iglesia": "catedral-puebla",
+      "tipo": "objeto",
+      "categoria_id": "objetos",
+      "titulo": "Altar mayor y ciprés de la Catedral de Puebla",
+      "descripcion_publica": "Baldaquino neoclásico de planta circular y orden corintio, con 16 columnas estriadas, mármoles de Tecali y una estatua de bronce de la Inmaculada. Hacia 1798 el obispo consultó a Manuel Tolsá, que hizo el plano y la maqueta; la obra la dirigió después José Manzo. El altar anterior se derribó el 1 de septiembre de 1799 y el ciprés se bendijo el 5 de diciembre de 1819. Bajo él hay una cripta donde se inhumaron obispos.",
+      "imagen_publica": "/imagenes/catedral-puebla-altar-mayor.jpg",
+      "fuente": "Wikipedia en español, «Catedral de Puebla» (consultado el 31 de octubre de 2026); la fuente atribuye el ciprés a Tolsá pero indica que solo hizo el plano y la maqueta. Fotografía de Wikimedia Commons: «Altar Mayor de la Catedral de Puebla (detalle).jpg», de Juan Carlos Fonseca Mata, licencia CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0); origen: https://commons.wikimedia.org/wiki/File:Altar_Mayor_de_la_Catedral_de_Puebla_(detalle).jpg.",
+      "es_ejemplo": false,
+      "clase_contenido": "objeto_patrimonial",
+      "creditos_imagen": {
+        "autor": "Juan Carlos Fonseca Mata",
+        "licencia": "CC BY-SA 4.0",
+        "enlace_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "enlace_original": "https://commons.wikimedia.org/wiki/File:Altar_Mayor_de_la_Catedral_de_Puebla_(detalle).jpg",
+        "titulo_original": "Altar Mayor de la Catedral de Puebla (detalle).jpg"
+      }
+    },
+    {
+      "clave": "la-compania-sepulcro-catarina",
+      "slug_iglesia": "la-compania",
+      "tipo": "objeto",
+      "categoria_id": "objetos",
+      "titulo": "Lápida del sepulcro de Catarina de San Juan",
+      "descripcion_publica": "Lápida con inscripción en latín y una placa en español, empotradas en la antesala de la sacristía del templo, que la tradición popular llama «la tumba de la China Poblana». La inscripción dice que Catarina de San Juan vivió 82 años y murió en 1688; según la fuente consultada, fue una niña esclava traída de la India. En 1691 la Inquisición prohibió sus imágenes y el libro escrito sobre ella. Que su vestimenta originara el traje de «china poblana» es una tradición discutida, no un hecho establecido; la fuente habla de restos «supuestamente» sepultados allí.",
+      "imagen_publica": "/imagenes/la-compania-sepulcro-catarina.jpg",
+      "fuente": "Wikipedia en español, «Templo de la Compañía (Puebla)» y Wikipedia en inglés, «Catarina de San Juan» (consultado el 31 de octubre de 2026); texto de la inscripción visible en la fotografía. Fotografía de Wikimedia Commons: «CryptChinaPoblana.JPG», de AlejandroLinaresGarcia, licencia CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0); origen: https://commons.wikimedia.org/wiki/File:CryptChinaPoblana.JPG.",
+      "es_ejemplo": false,
+      "clase_contenido": "objeto_patrimonial",
+      "creditos_imagen": {
+        "autor": "AlejandroLinaresGarcia",
+        "licencia": "CC BY-SA 4.0",
+        "enlace_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "enlace_original": "https://commons.wikimedia.org/wiki/File:CryptChinaPoblana.JPG",
+        "titulo_original": "CryptChinaPoblana.JPG"
+      }
+    },
+    {
+      "clave": "la-compania-altar-mayor",
+      "slug_iglesia": "la-compania",
+      "tipo": "objeto",
+      "categoria_id": "objetos",
+      "titulo": "Ábside y altar mayor del Templo de la Compañía",
+      "descripcion_publica": "En el ábside hay figuras de madera de los doce apóstoles, cada una con una llama, y la fuente menciona sobre el altar la pintura «El Espíritu Santo Paráclito» de Gonzalo Carrasco. Según la misma fuente, el retablo actual se diseñó en 1927 por Luis G. Olvera y Emilio Morales Gómez restauró la cúpula y la pintura del altar, sin fecha precisa. La fotografía muestra además una imagen de culto en el nicho central que no se describe aquí.",
+      "imagen_publica": "/imagenes/la-compania-altar-mayor.jpg",
+      "fuente": "Wikipedia en español, «Templo de la Compañía (Puebla)» (consultado el 31 de octubre de 2026). Fotografía de Wikimedia Commons: «MainAltarCompañiaPuebla.JPG», de AlejandroLinaresGarcia, licencia CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0); origen: https://commons.wikimedia.org/wiki/File:MainAltarCompa%C3%B1iaPuebla.JPG.",
+      "es_ejemplo": false,
+      "clase_contenido": "objeto_patrimonial",
+      "creditos_imagen": {
+        "autor": "AlejandroLinaresGarcia",
+        "licencia": "CC BY-SA 4.0",
+        "enlace_licencia": "https://creativecommons.org/licenses/by-sa/4.0",
+        "enlace_original": "https://commons.wikimedia.org/wiki/File:MainAltarCompa%C3%B1iaPuebla.JPG",
+        "titulo_original": "MainAltarCompañiaPuebla.JPG"
+      }
+    }
+  ]
+}

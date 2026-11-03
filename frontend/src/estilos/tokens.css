@@ -1,0 +1,31 @@
+:root {
+  --pergamino: #F4ECD8; /* marfil: texto sobre oscuro y superficies de lectura */
+  --carbon: #15100D;
+  --nogal: #1F130C;
+  --nogal-2: #2A1A10;
+  --nogal-3: #3A2415;
+  --suave: #CDBFA5; /* texto secundario sobre oscuro */
+  --oro-claro: #E2C57B;
+  --tinta: #1F1A17;
+  --madera-oscura: #24150C;
+  --madera-media: #4A2C17;
+  --piedra: #E9DDC4;
+  --vino: #7E1E30;
+  --dorado: #C9A24A; /* oro envejecido: acento y texto sobre oscuro; sobre marfil solo bordes */
+  --link: var(--oro-claro);
+
+  --texto: 18px;
+  --control: 56px;
+  --sep: 12px;
+
+  --fuente-titulo: Lora, Georgia, 'Times New Roman', serif;
+  --fuente-cuerpo: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+}
+
+@media (min-width: 768px) {
+  :root { --texto: 20px; }
+}
+
+/* Movimiento: --mov escala los desplazamientos (0 = sin desplazamiento) y --dur las duraciones. */
+:root { --ease: cubic-bezier(.16, 1, .3, 1); --mov: 1; --dur: 1; }
+@media (prefers-reduced-motion: reduce) { :root { --mov: 0; --dur: .3; } }

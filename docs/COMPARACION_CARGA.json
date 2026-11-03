@@ -1,0 +1,85 @@
+{
+  "huella_sha256": "4e481b1ae5ef0730135011a94dca3d87e6ae0496fcf76f85b3b8942fed042b7f",
+  "modo": "comparacion_solo_lectura",
+  "registros_modificados": 0,
+  "cambios": [
+    {
+      "tabla": "iglesias",
+      "slug": "catedral-campeche",
+      "antes": {
+        "descripcion": "",
+        "historia": "",
+        "direccion": "",
+        "foto_exterior": null,
+        "foto_interior": null,
+        "fuente": "Ubicación aprobada en MEJORAS_FASE_2.md: https://mapcarta.com/W160092168"
+      },
+      "despues": {
+        "descripcion": "Catedral de piedra clara frente a la Plaza de la Independencia, en el Centro Histórico de Campeche. Tiene dos torres, una portada de dos cuerpos y una sola nave en forma de cruz.",
+        "historia": "En 1540 Francisco de Montejo, el Mozo, mandó levantar en este lugar una pequeña iglesia de cal y canto con techo de palma. Se amplió hacia 1650 y de nuevo a mediados del siglo XVIII; las obras de esa etapa terminaron en 1760. Una de las torres, la llamada «La Española», tuvo el primer reloj público de la ciudad; la otra, «La Campechana», se construyó hasta 1849-1850.\n\nEl templo fue consagrado en 1833, cuando aún era parroquia. En 1895 se creó la diócesis de Campeche y la iglesia pasó a ser catedral. Por dentro conserva un altar mayor piramidal con un tabernáculo de plata del siglo XVIII y pisos de mármol con azulejos poblanos en el presbiterio.",
+        "direccion": "Calle 10 esquina con Calle 55, frente a la Plaza de la Independencia, Centro Histórico, 24000 San Francisco de Campeche, Campeche, México",
+        "foto_exterior": "/imagenes/catedral-campeche-exterior.jpg",
+        "foto_interior": "/imagenes/catedral-campeche-interior.jpg",
+        "fuente": "Texto y dirección redactados a partir de Wikipedia en español, «Catedral de Campeche» (consultado el 31 de octubre de 2026). Es una sola fuente divulgativa: fechas y detalles de las ampliaciones deben contrastarse con un estudio especializado. Fotografías de Wikimedia Commons: exterior, Cass D.arq (CC BY 4.0); interior, Dge (CC BY-SA 4.0)."
+      }
+    },
+    {
+      "tabla": "iglesias",
+      "slug": "dulce-nombre-jesus",
+      "antes": {
+        "descripcion": "",
+        "historia": "",
+        "direccion": "",
+        "foto_exterior": null,
+        "fuente": "Ubicación aprobada en MEJORAS_FASE_2.md: https://mapcarta.com/W552205116 ; https://catalogonacionalmhi.inah.gob.mx/consulta_publica/detalle/2226"
+      },
+      "despues": {
+        "descripcion": "Templo de fachada amarilla con grandes contrafuertes y una espadaña con campanas, en el Centro Histórico de Campeche. Se le conoce como «la iglesia amarilla».",
+        "historia": "Sus orígenes no están bien precisados y las fuentes no coinciden: unas hablan de una capilla abierta del siglo XVI para la población indígena, esclava y mulata del lugar, y otras de una iglesia fundada en el siglo XVII. Un artículo del INAH recoge que, en 1639, ya se habría dispuesto un espacio propio para las personas africanas y sus descendientes.\n\nSegún la misma fuente, el templo funcionó como parroquia principal hasta 1705, cuando se abrió otra sede. Sus contrafuertes, además de sostener el muro, le dan un aspecto de fortaleza muy fotografiado.",
+        "direccion": "Calle 12 (esquina con Calle 55), Centro Histórico, San Francisco de Campeche, Campeche, México",
+        "foto_exterior": "/imagenes/dulce-nombre-jesus-exterior.jpg",
+        "fuente": "Texto redactado a partir de un artículo de la revista Glifos del INAH y de una placa histórica citada en el Historical Marker Database, ambos vistos solo en extractos de búsqueda (consulta parcial), y de reseñas turísticas de PorEsto! (6 de agosto de 2024) y Ryo (consultadas el 31 de octubre de 2026). Fechas y origen sin confirmar. La calle y la esquina provienen de listados turísticos sin número exterior. Fotografía exterior de Wikimedia Commons: Elelicht (CC BY-SA 3.0). Aún no hay fotografía interior con licencia libre."
+      }
+    },
+    {
+      "tabla": "iglesias",
+      "slug": "catedral-puebla",
+      "antes": {
+        "descripcion": "",
+        "historia": "",
+        "direccion": "",
+        "foto_exterior": null,
+        "foto_interior": null,
+        "fuente": "Ubicación aprobada en MEJORAS_FASE_2.md: https://mapcarta.com/W1113187115"
+      },
+      "despues": {
+        "descripcion": "Catedral de cantera gris con dos grandes torres, tres portadas y cinco naves, junto al Zócalo en el Centro Histórico de Puebla.",
+        "historia": "Su primera piedra se colocó el 18 de noviembre de 1575. Las obras se suspendieron a principios del siglo XVII y se reanudaron en 1640, con el obispo Juan de Palafox y Mendoza. El templo se consagró el 18 de abril de 1649, aunque todavía no estaba terminado. El proyecto inicial fue de Francisco Becerra; después Juan Gómez de Trasmonte lo reformó con un aspecto más sobrio.\n\nLa torre norte se terminó en 1678 y es la única con campanas; la torre sur se concluyó en 1731. El ciprés del altar mayor, de estilo neoclásico, se bendijo en 1819. Su fachada y su planta se describen como herrerianas, de inspiración renacentista, con elementos barrocos.",
+        "direccion": "Calle 16 de Septiembre, entre 3 y 5 Oriente, junto al Zócalo, Centro Histórico, 72000 Puebla, Puebla, México",
+        "foto_exterior": "/imagenes/catedral-puebla-exterior.jpg",
+        "foto_interior": "/imagenes/catedral-puebla-interior.jpg",
+        "fuente": "Texto redactado a partir de Wikipedia en español, «Catedral de Puebla» (consultado el 31 de octubre de 2026); la propia fuente da fechas contradictorias sobre la suspensión de las obras y la altura de las torres, por eso no se citan. La dirección sigue un listado turístico y la ubicación junto al Zócalo, Wikipedia. Fotografías de Wikimedia Commons: exterior, Juan Carlos Fonseca Mata (CC BY-SA 4.0); interior, Ulisesmorales (CC BY-SA 3.0)."
+      }
+    },
+    {
+      "tabla": "iglesias",
+      "slug": "la-compania",
+      "antes": {
+        "descripcion": "",
+        "historia": "",
+        "direccion": "",
+        "foto_exterior": null,
+        "foto_interior": null,
+        "fuente": "Punto cartográfico del edificio, no entrada validada; consultado 2026-10-30: https://mapcarta.com/W525267034 ; https://www.wikidata.org/wiki/Q6141059 . Identidad/dirección: INAH I-0012104573, https://catalogonacionalmhi.inah.gob.mx/consulta_publica/detalle/54277 (índice de búsqueda; ficha directa 502)."
+      },
+      "despues": {
+        "descripcion": "Templo barroco de fachada blanca con yeserías y dos torres, junto al edificio Carolino en el Centro Histórico de Puebla. Su nombre oficial es Templo del Espíritu Santo.",
+        "historia": "Los jesuitas llegaron a Puebla en 1572 y en 1583 empezaron este templo, que se consagró en 1600. Entre 1746 y 1767 hubo una segunda etapa de obras, dirigida por José Miguel de Santa María; el templo se bendijo en 1767, pocos meses antes de la expulsión de la Compañía de Jesús. Las torres se terminaron a principios del siglo XIX.\n\nLos jesuitas volvieron en 1888 y en 1978 el templo pasó al arzobispado; hoy es parroquia de la Arquidiócesis de Puebla. En la antesala de la sacristía hay una lápida que marca el sepulcro de Catarina de San Juan, conocida como «la China Poblana»; la relación de su vestimenta con el traje que lleva ese nombre es discutida.",
+        "direccion": "Calle 4 Sur, esquina con Avenida Juan de Palafox y Mendoza, Centro Histórico, Puebla, Puebla, México",
+        "foto_exterior": "/imagenes/la-compania-exterior.jpg",
+        "foto_interior": "/imagenes/la-compania-interior.jpg",
+        "fuente": "Texto redactado a partir de Wikipedia en español, «Templo de la Compañía (Puebla)» (consultado el 31 de octubre de 2026). Es una sola fuente divulgativa. La calle sigue esa fuente: el número exterior no se indica porque las fuentes difieren (Wikipedia, s/n; ficha del INAH en proceso de validación, 4 Sur 102). Fotografías de Wikimedia Commons: exterior, Mercedes Álvarez Díaz (CC BY-SA 3.0); interior, Burkhard Mücke (CC BY-SA 4.0)."
+      }
+    }
+  ]
+}
